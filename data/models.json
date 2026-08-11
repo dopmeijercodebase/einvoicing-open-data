@@ -1,0 +1,47 @@
+[
+  {
+    "id": "four-corner",
+    "name": "The 4-corner model (Peppol)",
+    "body": [
+      "The four-corner model is the backbone of the Peppol network and the most widely adopted interoperability framework in the world. Its name comes from the four parties in any exchange: the supplier (corner 1) sends the invoice to their own access point (corner 2); that access point transmits it across the network to the buyer’s access point (corner 3); which delivers it to the buyer (corner 4). Neither trading partner needs a direct connection to the other — they each connect once, to their own provider, and the network handles the rest.",
+      "The elegance is the \"connect once, reach everyone\" principle: like email, you do not need an account with your counterparty’s provider. Any Peppol-registered business can send to any other. Access points validate that documents conform to the agreed standard (usually a Peppol BIS / EN 16931 format) before transmission, which keeps quality high across the network."
+    ],
+    "used": "Belgium, Netherlands, Singapore, Australia, New Zealand, and the B2G systems of many EU states."
+  },
+  {
+    "id": "five-corner",
+    "name": "The 5-corner model (DCTCE)",
+    "body": [
+      "The five-corner model extends the Peppol four-corner design by adding a fifth corner: the tax authority. As invoices flow between the two access points, tax-relevant data is reported to the government in near real time. This is the \"Decentralised Continuous Transaction Control and Exchange\" (DCTCE) model — it keeps the decentralised, connect-once benefits of Peppol while giving tax authorities the transaction-level visibility they increasingly demand.",
+      "Crucially, unlike a clearance model, the invoice is not held for government pre-approval before it can be sent — exchange and reporting happen in parallel, so business is not blocked waiting on a state platform. The UAE’s 2027 regime and France’s reform are the flagship examples, both building on accredited service providers that act as the access points and reporting conduits."
+    ],
+    "used": "United Arab Emirates (2027), France (2026–27), and the emerging template for new mandates."
+  },
+  {
+    "id": "clearance",
+    "name": "Centralised clearance",
+    "body": [
+      "In a clearance model, every invoice must pass through a government platform that validates and \"clears\" it before it becomes a legally valid document. The supplier submits the invoice to the state system; only once it is cleared (often stamped with a unique identifier and QR code) can it be issued to the buyer. The state effectively sits in the middle of every transaction.",
+      "This gives tax authorities the tightest possible control and the richest data, which is why it is popular in markets with historically large VAT gaps. The trade-off is operational dependency: if the government platform is slow or down, invoicing can stall. Businesses must also handle real-time validation failures in their billing flow."
+    ],
+    "used": "Italy (SdI), Poland (KSeF), most of Latin America (Brazil, Mexico, Chile), Türkiye, Saudi Arabia (standard invoices)."
+  },
+  {
+    "id": "ctc-reporting",
+    "name": "CTC / real-time reporting",
+    "body": [
+      "Continuous Transaction Controls (CTC) reporting takes a lighter touch than clearance. The invoice is sent directly from supplier to buyer as usual, but invoice data must be reported to the tax authority in real time or near real time — either at the moment of issue or within a short window. The authority observes every transaction but does not gate it.",
+      "This model is economically similar to clearance in the visibility it gives the state, but it is less disruptive to business flow because the invoice does not wait for approval. It is often a stepping stone: several countries begin with reporting and tighten toward clearance or a five-corner exchange over time."
+    ],
+    "used": "Hungary (RTIR), Spain (SII), India (e-invoicing/IRP), South Korea, much of the CTC-adopting world."
+  },
+  {
+    "id": "interoperability",
+    "name": "Interoperability / post-audit",
+    "body": [
+      "The interoperability (or post-audit) model is the most decentralised. Trading partners exchange a structured electronic invoice directly, in a format both sides agree on (increasingly EN 16931), with no government platform in the loop at the moment of exchange. Tax authorities rely on audits after the fact rather than real-time visibility.",
+      "This is the traditional European approach and the starting point for Germany’s phased mandate: from 2025 businesses must be able to receive structured e-invoices, with issuance following in 2027–28, but there is (for now) no central reporting platform. A digital reporting layer aligned with the EU’s ViDA initiative is expected to be added on top toward 2030."
+    ],
+    "used": "Germany (2025–2028), and the historic model across most of the EU before CTC adoption."
+  }
+]

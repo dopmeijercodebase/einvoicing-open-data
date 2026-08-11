@@ -1,0 +1,28 @@
+{
+  "total": 241,
+  "counts": {
+    "none": 94,
+    "live": 63,
+    "voluntary": 20,
+    "phasing": 36,
+    "announced": 16,
+    "proposed": 12
+  },
+  "featured": [
+    "uae",
+    "saudi-arabia",
+    "germany",
+    "france",
+    "poland",
+    "italy",
+    "belgium",
+    "india",
+    "malaysia",
+    "singapore",
+    "brazil",
+    "united-kingdom"
+  ],
+  "updated": "2026-08-11T12:37:42.056Z",
+  "exported_at": "2026-08-11T12:37:42.418Z",
+  "source": "https://e-invoicing.org"
+}
