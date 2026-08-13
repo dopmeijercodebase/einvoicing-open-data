@@ -16,14 +16,14 @@
     "slug": "aland-islands",
     "name": "Åland Islands",
     "region": "Europe",
-    "status": "none",
-    "statusLabel": "No mandate",
-    "keyDate": "Follows Finland's tax regime — no separate territorial mandate",
-    "model": "—",
-    "format": "—",
-    "authority": "Same as Finland (finland)",
-    "summary": "Åland Islands does not run its own independent tax administration for e-invoicing purposes; it follows Finland's regime directly. Åland is administered by Finland's own tax authority (Vero) for income and corporate tax purposes — it is not a separate tax administration. Its only distinct feature is a VAT/customs border with mainland Finland and the rest of the EU (Åland sits outside the EU VAT and excise area while remaining in the EU customs territory), which affects VAT treatment of cross-border goods but not which authority administers e-invoicing. See the Finland dossier for the applicable e-invoicing rules. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "status": "live",
+    "statusLabel": "Mandate live",
+    "keyDate": "B2G mandatory since April 2020 (all public authorities); B2B soft right since April 2021",
+    "model": "Decentralised operator network (post-audit)",
+    "format": "Finvoice 3.0 / TEAPPSXML 3.0 / Peppol BIS Billing 3.0 (all EN 16931-compliant)",
+    "authority": "Finnish Tax Administration (Verohallinto) and State Treasury (Valtiokonttori) as Peppol Authority",
+    "summary": "Åland Islands does not operate a separate e-invoicing regime and is administered under Finnish law for tax and invoicing purposes. Finland has a live B2G e-invoicing mandate under Act 241/2019, requiring all suppliers to public authorities to issue EN 16931-compliant structured e-invoices; this obligation has applied to all public bodies since April 2020 and was extended to full EN 16931 compliance for all B2G and qualifying B2B transactions from April 2021. There is no general B2B or B2C mandate, though any Finnish business with annual turnover above EUR 10,000 has a statutory right to demand structured e-invoices from its suppliers. No national ViDA implementing legislation has been published as of the source dates; EU-wide requirements are expected to apply from 1 July 2030.",
+    "hasDossier": true
   },
   {
     "slug": "albania",
@@ -60,9 +60,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "American Samoa Government, Tax Office",
-    "summary": "American Samoa operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. A \"non-mirror Code\" US territory with its own internal tax laws, distinct from Guam/USVI/Northern Mariana Islands (which mirror the US Internal Revenue Code). No e-invoicing mandate found. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "American Samoa Government Tax Office, Department of the Treasury",
+    "summary": "American Samoa operates its own independent tax administration, modelled on the US Internal Revenue Code as it stood on 31 December 2000, but with distinct territorial provisions administered by the American Samoa Government Tax Office. No e-invoicing mandate, platform, voluntary framework, or credible programme of any kind has been identified in any available official source. The territory remains entirely outside the scope of e-invoicing regulation as of August 2026.",
+    "hasDossier": true
   },
   {
     "slug": "andorra",
@@ -99,9 +99,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Inland Revenue Department, Anguilla",
-    "summary": "Anguilla operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. British Overseas Territory with its own Inland Revenue Department; no income tax, no VAT. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Inland Revenue Department (IRD), Anguilla",
+    "summary": "Anguilla has no e-invoicing mandate, platform, or programme of any kind. The territory operates its own Inland Revenue Department, levies no income tax and no VAT, and relies instead on a Goods and Services Tax together with various other indirect levies. No legal instrument introducing e-invoicing has been identified in any official source.",
+    "hasDossier": true
   },
   {
     "slug": "antigua-and-barbuda",
@@ -151,9 +151,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Departamento di Impuesto (Tax Department), Aruba",
-    "summary": "Aruba operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. Constituent country of the Kingdom of the Netherlands with its own tax administration, separate from the Netherlands and from Curaçao/Sint Maarten. The IMF has recommended Aruba consider introducing a VAT system; no e-invoicing mandate confirmed. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Departamento di Impuesto (DIMP), Aruba",
+    "summary": "Aruba has no e-invoicing mandate, announced programme, or formal proposal as of August 2026. The Departamento di Impuesto (DIMP) launched the second phase of its online tax portal (BOi) in May 2026, representing a significant step toward digital tax administration, but this covers tax assessments, payment plans, and fiscal account management rather than e-invoicing. Aruba operates its own independent tax system based on a cumulative turnover tax (BBO/BAZV/BAVP) rather than a VAT, and no credible e-invoicing initiative has been identified in authoritative sources.",
+    "hasDossier": true
   },
   {
     "slug": "australia",
@@ -203,9 +203,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "—",
-    "summary": "Bahamas has no e-invoicing or transaction-level CTC mandate, and no credible programme has been announced. We monitor for changes.",
-    "hasDossier": false
+    "authority": "Department of Inland Revenue (DIR)",
+    "summary": "The Bahamas has no e-invoicing or transaction-level continuous transaction control mandate in place, and no such programme has been announced or proposed. The Department of Inland Revenue administers VAT and other taxes through an online portal, but invoicing remains outside any structured digital mandate.",
+    "hasDossier": true
   },
   {
     "slug": "bahrain",
@@ -276,14 +276,14 @@
     "slug": "belize",
     "name": "Belize",
     "region": "Americas",
-    "status": "none",
-    "statusLabel": "No mandate",
-    "keyDate": "No mandate",
-    "model": "—",
-    "format": "—",
-    "authority": "—",
-    "summary": "Belize has no e-invoicing or transaction-level CTC mandate, and no credible programme has been announced. We monitor for changes.",
-    "hasDossier": false
+    "status": "announced",
+    "statusLabel": "Announced — dated",
+    "keyDate": "Mandatory for large taxpayers from 2027 (exact date TBC)",
+    "model": "Clearance (pre-clearance CTC)",
+    "format": "UBL XML (BTS-compliant)",
+    "authority": "Belize Tax Service Department (BTSD)",
+    "summary": "Belize has enacted the General Sales Tax (Amendment) Act, 2024, which took effect on 1 January 2025 and provides the legal foundation for mandatory e-invoicing under a centralised pre-clearance model. The Belize Tax Service Department is managing the rollout with IDB and CIAT support, targeting large taxpayers from 2027, though detailed technical specifications and the phased implementation schedule have not yet been published. The mandate will require all GST-registered entities to issue and report invoices electronically through BTSD authorisation before documents are valid for tax purposes.",
+    "hasDossier": true
   },
   {
     "slug": "benin",
@@ -307,9 +307,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Office of the Tax Commissioner, Bermuda",
-    "summary": "Bermuda operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. British Overseas Territory with its own tax system; introduced a 15% Corporate Income Tax effective 1 January 2025. No VAT, no e-invoicing mandate found. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Office of the Tax Commissioner (OTC), Bermuda",
+    "summary": "Bermuda has no e-invoicing mandate, platform, or announced programme of any kind. The Office of the Tax Commissioner administers a range of taxes including payroll tax, land tax, and corporate services tax, and operates an online E-Tax payment and filing tool, but none of these involve e-invoicing obligations. Bermuda has no VAT and no goods-and-services tax, removing the principal regulatory driver that typically motivates e-invoicing mandates.",
+    "hasDossier": true
   },
   {
     "slug": "bhutan",
@@ -346,9 +346,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Belastingdienst Caribisch Nederland (Dutch Tax and Customs Administration, Caribbean Netherlands)",
-    "summary": "Bonaire, Sint Eustatius & Saba operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. Special municipalities of the Netherlands, but under a distinct 'BES tax' regime rather than mainland Dutch tax law — administered by a dedicated Caribbean Netherlands division of the Dutch tax authority, not simply 'the same as the Netherlands.' No e-invoicing mandate found. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Belastingdienst Caribisch Nederland (BCN)",
+    "summary": "Bonaire, Sint Eustatius and Saba (the BES islands) operate under a distinct tax regime administered by Belastingdienst Caribisch Nederland (BCN), a dedicated Caribbean Netherlands division of the Dutch Tax and Customs Administration. The principal indirect tax is the General Expenditure Tax (GET), not VAT, and EU law does not automatically apply to these territories. No e-invoicing mandate, pilot, platform, or credible programme has been identified in any available official or authoritative source.",
+    "hasDossier": true
   },
   {
     "slug": "bosnia-and-herzegovina",
@@ -398,9 +398,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "BVI Inland Revenue Department",
-    "summary": "British Virgin Islands operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. British Overseas Territory with no income tax, capital gains tax, sales tax, VAT, or profit tax — essentially nothing to structure an e-invoicing mandate around. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Inland Revenue Department (BVI)",
+    "summary": "The British Virgin Islands has no e-invoicing mandate, platform, or announced programme. The territory's tax base consists of payroll tax, stamp duty, property tax, and similar levies but no VAT or general sales tax, leaving no structural foundation on which an e-invoicing obligation could be built. The Inland Revenue Department, operating under the BVI Ministry of Finance, administers these taxes but has published no e-invoicing initiative.",
+    "hasDossier": true
   },
   {
     "slug": "brunei",
@@ -515,9 +515,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Department for International Tax Cooperation, Cayman Islands",
-    "summary": "Cayman Islands operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. British Overseas Territory with no direct taxation (no income, corporate, capital gains, or VAT). No basis for an e-invoicing mandate. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Department for International Tax Cooperation (DITC), Cayman Islands",
+    "summary": "The Cayman Islands has no e-invoicing mandate, platform, or announced programme. The territory levies no income tax, corporate tax, VAT, or GST, removing the fiscal basis on which e-invoicing obligations are typically constructed. The DITC focuses exclusively on international tax information exchange frameworks such as CRS, FATCA, Country-by-Country Reporting, and Economic Substance.",
+    "hasDossier": true
   },
   {
     "slug": "central-african-republic",
@@ -528,22 +528,22 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "—",
-    "summary": "Central African Republic has no e-invoicing or transaction-level CTC mandate, and no credible programme has been announced. We monitor for changes.",
-    "hasDossier": false
+    "authority": "Direction Générale des Impôts et des Domaines (DGID)",
+    "summary": "The Central African Republic has no e-invoicing or transaction-level continuous transaction control mandate in force, announced, or formally proposed. The tax authority, the Direction Générale des Impôts et des Domaines, completed a broader digital tax modernisation project in 2023 that introduced an eTax platform for online registration, electronic declarations, and payments, but this does not constitute a structured e-invoicing obligation. No legislative instrument, rollout date, or technical format requirement has been identified in the available sources.",
+    "hasDossier": true
   },
   {
     "slug": "chad",
     "name": "Chad",
     "region": "Africa",
-    "status": "none",
-    "statusLabel": "No mandate",
-    "keyDate": "No mandate",
-    "model": "—",
-    "format": "—",
-    "authority": "—",
-    "summary": "Chad has no e-invoicing or transaction-level CTC mandate, and no credible programme has been announced. We monitor for changes.",
-    "hasDossier": false
+    "status": "live",
+    "statusLabel": "Mandate live",
+    "keyDate": "Mandatory FEN for public expenditure and expanded scope from 1 January 2026",
+    "model": "TBC",
+    "format": "FEN (Facture Électronique Normalisée)",
+    "authority": "Direction Générale des Impôts (DGI) / Ministry of Finance, Chad",
+    "summary": "Chad's 2026 Finance Law, promulgated by President Mahamat Déby and effective 1 January 2026, expanded the mandatory use of the Standardized Electronic Invoice (Facture Électronique Normalisée, FEN) to cover public expenditure processing, public bodies, autonomous local authorities, NGOs, associations, and liberal professions. Suppliers to public contracts must register with the FEN system, and non-compliant invoices are rejected within the public expenditure chain. The technical model and detailed format specification beyond the FEN label are not confirmed in the available sources.",
+    "hasDossier": true
   },
   {
     "slug": "chile",
@@ -632,9 +632,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Revenue Management Division (RMD), Ministry of Finance and Economic Management, Cook Islands",
-    "summary": "Cook Islands operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. Self-governing in free association with New Zealand, with its own independent Revenue Management Division and online tax account system. No e-invoicing mandate found. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Revenue Management Division (RMD), Ministry of Finance and Economic Management (MFEM), Cook Islands",
+    "summary": "Cook Islands has no e-invoicing mandate, platform, or published programme as of August 2026. The Revenue Management Division administers tax and customs under the Ministry of Finance and Economic Management, operating an online taxation portal and customs declaration system, but neither authority has announced any e-invoicing requirement or voluntary framework.",
+    "hasDossier": true
   },
   {
     "slug": "costa-rica",
@@ -698,8 +698,8 @@
     "model": "—",
     "format": "—",
     "authority": "Belastingdienst Curaçao",
-    "summary": "Curaçao operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. Constituent country of the Kingdom of the Netherlands with its own tax administration, separate from Aruba, Sint Maarten, and the Netherlands. No e-invoicing mandate confirmed, though this is a jurisdiction to watch given recent Dutch Caribbean digitalisation coverage. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "summary": "Curaçao is an autonomous constituent country of the Kingdom of the Netherlands with its own independent tax administration, the Belastingdienst Curaçao. No e-invoicing mandate, formal programme, or announced legislative instrument has been identified in any available official source. The tax authority operates an online filing portal for wage tax and other declarations, but this is unrelated to any e-invoicing obligation.",
+    "hasDossier": true
   },
   {
     "slug": "cyprus",
@@ -905,9 +905,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Falkland Islands Government, Taxation Office",
-    "summary": "Falkland Islands operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. British Overseas Territory with its own Taxation Office and income/corporate tax system (notably funded significantly by fishing licence revenue). No e-invoicing mandate found. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Falkland Islands Government Taxation Office",
+    "summary": "The Falkland Islands operates its own independent tax administration under the Falkland Islands Government Taxation Office, covering income tax, corporation tax, and related obligations. No e-invoicing mandate, platform, voluntary framework, or published programme has been identified in any official source. The territory remains outside the scope of any e-invoicing requirement as of August 2026.",
+    "hasDossier": true
   },
   {
     "slug": "faroe-islands",
@@ -918,9 +918,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "TAKS (Faroese tax authority)",
-    "summary": "Faroe Islands operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. Self-governing part of the Kingdom of Denmark with its own independent tax authority (TAKS), outside the EU and Danish VAT area. No e-invoicing mandate found, in contrast to Greenland (also Danish, but with a confirmed live mandate — see its own dossier). (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "TAKS (Faroese Tax Administration)",
+    "summary": "The Faroe Islands is a self-governing territory within the Kingdom of Denmark, outside the EU and Danish VAT area, with its own independent tax authority, TAKS. No e-invoicing mandate, platform, or formal programme has been identified in any of the available sources. The territory operates a highly automated direct-tax withholding system, but this is distinct from any structured e-invoicing obligation.",
+    "hasDossier": true
   },
   {
     "slug": "fiji",
@@ -965,14 +965,14 @@
     "slug": "french-guiana",
     "name": "French Guiana",
     "region": "Americas",
-    "status": "none",
-    "statusLabel": "No mandate",
-    "keyDate": "Follows France's tax regime — no separate territorial mandate",
-    "model": "—",
-    "format": "—",
-    "authority": "Same as France (france)",
-    "summary": "French Guiana does not run its own independent tax administration for e-invoicing purposes; it follows France's regime directly. French Guiana is a full French département/région (DROM), constitutionally and fiscally integrated into France — not a separate collectivity like New Caledonia or French Polynesia. French tax law, including the national e-invoicing/e-reporting reform, applies directly. See the France dossier for the applicable e-invoicing rules. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "status": "phasing",
+    "statusLabel": "Rollout underway",
+    "keyDate": "Receive by 1 Sep 2026; issue (large/ETI) 1 Sep 2026, issue (SME/micro) 1 Sep 2027",
+    "model": "5-corner (Y-model / PPF + accredited platforms)",
+    "format": "Structured electronic invoice via accredited platform (specific format names not confirmed in sources)",
+    "authority": "DGFiP (Direction générale des Finances publiques)",
+    "summary": "French Guiana is a full French département and région d'outre-mer (DROM), fiscally and constitutionally integrated into France. France's national e-invoicing and e-reporting reform therefore applies directly, with all businesses subject to French VAT required to receive electronic invoices by 1 September 2026 and to issue them on a phased schedule extending to 1 September 2027. The reform uses a decentralised 5-corner (Y-model) architecture built around state-accredited platforms (PAs) and the Public Invoice Portal (PPF).",
+    "hasDossier": true
   },
   {
     "slug": "french-polynesia",
@@ -1062,8 +1062,8 @@
     "model": "—",
     "format": "—",
     "authority": "HM Government of Gibraltar, Income Tax Office",
-    "summary": "Gibraltar operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. British Overseas Territory with no VAT (treated as a third country for EU VAT purposes). Introducing a new 15% Transaction Tax on goods from 15 July 2026, rising to 17% within two years — a novel tax, not an e-invoicing mandate. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "summary": "Gibraltar has no e-invoicing mandate, platform, or announced programme. The Income Tax Office administers income tax and corporation tax under the Income Tax Act 2010, and has moved to electronic submission of tax returns, but this is distinct from any e-invoicing obligation. Gibraltar has no VAT and is treated as a third country for EU VAT purposes, removing the EU Directive 2014/55/EU framework that drives mandates elsewhere in Europe.",
+    "hasDossier": true
   },
   {
     "slug": "greece",
@@ -1084,11 +1084,11 @@
     "region": "Europe",
     "status": "live",
     "statusLabel": "Mandate live",
-    "keyDate": "Effective 1 March 2025, mandatory B2G digital invoicing for all legal and natural persons supplying goods or services to public authorities",
-    "model": "B2G digital invoicing mandate — suppliers to public authorities must issue digital invoices",
-    "format": "Not confirmed in sources reviewed",
-    "authority": "Government of Greenland (Naalakkersuisut) / Greenland Tax Agency (Skattestyrelsen)",
-    "summary": "Greenland — a self-governing territory within the Kingdom of Denmark, outside the EU and the Danish/EU VAT area, with its own independent tax administration — has a live, mandatory B2G e-invoicing regime. Effective 1 March 2025, the Government of Greenland requires all legal and natural persons supplying goods or services to public authorities to issue digital invoices. This was previously absent from the e-invoicing.org dataset entirely (Greenland is one of ~54 ISO 3166-1 entities outside the 195-country core dataset); added following a territory-coverage audit that confirmed Greenland runs its own tax administration and has a genuine, independent e-invoicing mandate distinct from Denmark's.",
+    "keyDate": "Mandatory B2G digital invoicing from 1 March 2025",
+    "model": "Decentralised (NemHandel / NemHandelsRegister)",
+    "format": "OIOUBL via NemHandel",
+    "authority": "Government of Greenland (Naalakkersuisut) / Danish Business Authority (NemHandelsRegister)",
+    "summary": "Greenland mandates digital invoicing for all suppliers of goods and services to public authorities, effective 1 March 2025, under an executive order published 11 November 2024. Invoices must be in OIOUBL format and exchanged through the NemHandel platform; non-compliant invoices are rejected and reset the payment clock. Business-to-business e-invoicing remains voluntary, and smaller entities may qualify for an exemption based on an annual turnover threshold of DKK 300,000.",
     "hasDossier": true
   },
   {
@@ -1126,9 +1126,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Department of Revenue and Taxation, Guam",
-    "summary": "Guam operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. A \"mirror Code\" US territory — the US Internal Revenue Code is mirrored as Guam's own internal tax law, administered locally. No e-invoicing mandate found. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Guam Department of Revenue and Taxation",
+    "summary": "Guam operates its own independent tax administration, the Department of Revenue and Taxation, which administers a mirrored version of the US Internal Revenue Code as local law. No e-invoicing mandate, platform, or credible programme has been identified in any available official source. The territory's online payment and filing infrastructure covers tax payments and GRT returns but does not constitute or announce an e-invoicing obligation.",
+    "hasDossier": true
   },
   {
     "slug": "guatemala",
@@ -1153,8 +1153,8 @@
     "model": "—",
     "format": "—",
     "authority": "Guernsey Revenue Service",
-    "summary": "Guernsey operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. Crown Dependency with no VAT or GST currently, though a proposal to introduce GST from 2027 was included in the 2025 Budget — worth monitoring, but no e-invoicing mandate exists yet. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "summary": "Guernsey has no e-invoicing mandate, no announced e-invoicing programme, and no structured e-invoicing format or model in place. The Revenue Service administers income tax and social security contributions but does not operate a VAT or GST system, removing the primary driver behind most e-invoicing mandates globally. The island's 2025 Budget proposal to introduce GST from 2027 is worth monitoring, but nothing in the available sources confirms any e-invoicing obligation or programme linked to that proposal.",
+    "hasDossier": true
   },
   {
     "slug": "guinea",
@@ -1387,8 +1387,8 @@
     "model": "—",
     "format": "—",
     "authority": "Revenue Jersey",
-    "summary": "Jersey operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. Crown Dependency confirmed to have no mandatory e-invoicing — Revenue Jersey does not require pre-approval or real-time transmission; paper and PDF invoices remain fully valid for GST, provided required fields are present. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "summary": "Jersey, a Crown Dependency with its own independent tax administration, has no e-invoicing mandate, clearance platform, or announced programme. Revenue Jersey administers Goods and Services Tax under the Goods and Services Tax (Jersey) Law 2007 and requires GST-registered businesses to issue invoices containing specified fields, but paper and electronic invoices are equally valid provided those fields are present. No pre-approval, real-time transmission, or structured digital format is required.",
+    "hasDossier": true
   },
   {
     "slug": "jordan",
@@ -1828,9 +1828,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Montserrat Inland Revenue Department",
-    "summary": "Montserrat operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. British Overseas Territory with its own Inland Revenue Department. No e-invoicing mandate found. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Inland Revenue Department, Montserrat (MCRS)",
+    "summary": "Montserrat operates an independent tax administration under the Montserrat Customs and Revenue Service, with the Inland Revenue Department administering five direct taxes including income tax, company tax, withholding tax, property tax, and an insurance company levy. No e-invoicing mandate, platform, or credible programme has been identified from the official sources. The department's digital focus as of August 2026 is limited to a property tax online payment platform, with filing tax returns and a property tax calculator listed as coming soon.",
+    "hasDossier": true
   },
   {
     "slug": "morocco",
@@ -1998,8 +1998,8 @@
     "model": "—",
     "format": "—",
     "authority": "Niue Tax Office, Niue Ministry of Finance",
-    "summary": "Niue operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. Self-governing in free association with New Zealand, with its own independent Tax Office supporting online filing. No e-invoicing mandate found. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "summary": "Niue has no e-invoicing mandate, platform, or announced programme as of August 2026. The Niue Tax Office administers income tax, PAYE, and the Niue Consumption Tax through an online filing portal, but invoicing itself remains entirely paper or commercially discretionary. No legal instrument, pilot, or policy proposal relating to e-invoicing has been identified in any official source.",
+    "hasDossier": true
   },
   {
     "slug": "norfolk-island",
@@ -2050,8 +2050,8 @@
     "model": "—",
     "format": "—",
     "authority": "Division of Revenue and Taxation, Commonwealth of the Northern Mariana Islands",
-    "summary": "Northern Mariana Islands operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. A \"mirror Code\" US commonwealth — the US Internal Revenue Code is mirrored as its own internal tax law, administered locally. No e-invoicing mandate found. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "summary": "The Commonwealth of the Northern Mariana Islands (CNMI) operates its own tax administration through the Division of Revenue and Taxation, with an income tax system based partly on the US Internal Revenue Code and partly on local CNMI law. No e-invoicing mandate, platform, pilot programme, or credible legislative proposal has been identified in any available official source. The CNMI profile therefore remains at status none as of August 2026.",
+    "hasDossier": true
   },
   {
     "slug": "norway",
@@ -2192,9 +2192,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Pitcairn Islands Government",
-    "summary": "Pitcairn Islands operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. British Overseas Territory with a permanent population of roughly 50 — has its own nominal government but no tax administration of a scale relevant to e-invoicing; initially grouped with the uninhabited/negligible-population territories, listed separately here since it does have a small resident population and local government, unlike the truly uninhabited entries excluded from this dataset entirely. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Government of the Pitcairn Islands (Island Council)",
+    "summary": "Pitcairn Islands is a British Overseas Territory with a resident population of approximately fifty people. No e-invoicing mandate, platform, programme, or legislative framework relating to electronic invoicing has been identified in any available official source. The territory's administrative scale makes a formal e-invoicing regime neither present nor foreseeable.",
+    "hasDossier": true
   },
   {
     "slug": "poland",
@@ -2231,9 +2231,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Departamento de Hacienda (Puerto Rico Treasury Department)",
-    "summary": "Puerto Rico operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. A \"non-mirror Code\" US territory with its own internal tax laws (distinct from federal US tax law). Mandatory electronic filing of sales-and-use-tax (IVU) returns via the SURI portal has been in place for years, but this is a tax-return filing mandate, not a structured B2B/B2G e-invoicing mandate. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Departamento de Hacienda de Puerto Rico",
+    "summary": "Puerto Rico operates its own independent tax administration under the Departamento de Hacienda and levies a Sales and Use Tax (IVU) at a combined rate of 11.5 percent, administered digitally through the SURI portal. No e-invoicing mandate, structured B2B or B2G e-invoicing programme, or credible announcement of one has been identified in the available sources. The SURI portal obligation covers tax-return filing and merchant registration, not structured invoice exchange between trading parties.",
+    "hasDossier": true
   },
   {
     "slug": "qatar",
@@ -2323,8 +2323,8 @@
     "model": "—",
     "format": "—",
     "authority": "Collectivité de Saint-Barthélemy, Service des Contributions",
-    "summary": "Saint Barthélemy operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. French Overseas Collectivity (COM) with its own distinct tax code since 2007 (notably a low/no direct-tax regime) — outside the scope of France's national e-invoicing reform, consistent with other French COMs. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "summary": "Saint Barthélemy is a French Overseas Collectivity (COM) with its own autonomous tax code, entirely separate from metropolitan France's tax jurisdiction. No e-invoicing mandate, platform, or legislative programme has been identified for the territory. France's national B2B e-invoicing reform, phasing from September 2026, does not extend to Saint Barthélemy.",
+    "hasDossier": true
   },
   {
     "slug": "st-helena",
@@ -2335,9 +2335,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "St Helena Government, Taxation Office",
-    "summary": "Saint Helena, Ascension & Tristan da Cunha operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. British Overseas Territory with its own Taxation Office. No e-invoicing mandate found. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "St Helena Government, Income Tax Office",
+    "summary": "Saint Helena, Ascension and Tristan da Cunha is a British Overseas Territory with its own independent tax administration based on St Helena. No e-invoicing mandate, platform, pilot, or credible programme has been identified in any official source. The territory operates a conventional income tax system with no indication of digitalised invoicing obligations.",
+    "hasDossier": true
   },
   {
     "slug": "st-martin-french",
@@ -2362,8 +2362,8 @@
     "model": "—",
     "format": "—",
     "authority": "Direction des Services Fiscaux, Saint-Pierre-et-Miquelon",
-    "summary": "Saint Pierre & Miquelon operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. French Overseas Collectivity (COM) with its own local tax arrangements — outside the scope of France's national e-invoicing reform, consistent with other French COMs. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "summary": "Saint Pierre and Miquelon is a French Overseas Collectivity (COM) with its own autonomous fiscal regime governed by its Territorial Council, entirely separate from metropolitan France's national tax framework. No e-invoicing mandate, platform, or published programme has been identified for the territory. France's national B2B e-invoicing reform, which phases in from September 2026, applies exclusively to entities subject to French VAT and does not extend to Saint Pierre and Miquelon.",
+    "hasDossier": true
   },
   {
     "slug": "samoa",
@@ -2491,9 +2491,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Belastingdienst Sint Maarten",
-    "summary": "Sint Maarten operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. Constituent country of the Kingdom of the Netherlands with its own tax administration. Invoicing is form-free (a consecutively numbered, dated invoice is required, but no structured e-invoicing format is mandated). (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Tax Administration Sint Maarten (Inspectorate of Taxes)",
+    "summary": "Sint Maarten operates its own independent tax administration established on 10 October 2010, when the island became a constituent country of the Kingdom of the Netherlands. No e-invoicing mandate, structured format requirement, or credible legislative programme has been identified in the available sources. Invoicing obligations exist within the Turnover Tax (TOT) framework, but no electronic invoice format or clearance model has been introduced.",
+    "hasDossier": true
   },
   {
     "slug": "slovakia",
@@ -2687,8 +2687,8 @@
     "model": "—",
     "format": "—",
     "authority": "Norwegian Tax Administration (Skatteetaten), Svalbard Tax Office",
-    "summary": "Svalbard & Jan Mayen operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. Svalbard has a distinct, notably low flat-tax regime (no VAT) under the separate Svalbard Tax Act, administered by the Norwegian Tax Administration but under different rules than mainland Norway. Jan Mayen has no permanent population. No e-invoicing mandate found. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "summary": "Svalbard and Jan Mayen have no e-invoicing mandate, platform, or credible programme. Svalbard operates under its own simplified flat-tax regime with no VAT, administered by the Svalbard Tax Office under rules distinct from mainland Norway; Jan Mayen applies mainland Norwegian tax rates but has no permanent population. The mainland Norwegian B2B e-invoicing mandate announced for 1 January 2027 applies to entities subject to Norwegian bookkeeping requirements on the mainland and does not extend to Svalbard or Jan Mayen.",
+    "hasDossier": true
   },
   {
     "slug": "sweden",
@@ -2816,9 +2816,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "New Zealand Inland Revenue (administering on behalf of Tokelau)",
-    "summary": "Tokelau operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. New Zealand territory with a minimal formal economy; no independent tax administration of the scale relevant to e-invoicing was found. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "No independent tax authority identified",
+    "summary": "Tokelau is a non-self-governing territory within the Realm of New Zealand with a very small economy supported primarily by fisheries licence fees and New Zealand budget support. No e-invoicing mandate, platform, or programme of any kind has been identified for Tokelau. New Zealand's own e-invoicing programme, built on the Peppol framework, does not extend to Tokelau.",
+    "hasDossier": true
   },
   {
     "slug": "tonga",
@@ -2894,9 +2894,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Turks and Caicos Islands Revenue Department",
-    "summary": "Turks & Caicos Islands operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. British Overseas Territory with no corporate tax, capital gains tax, or VAT. No basis for an e-invoicing mandate. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Inland Revenue Department (IRD), Turks and Caicos Islands",
+    "summary": "The Turks and Caicos Islands has no e-invoicing mandate, platform, or announced programme. The territory operates a narrow tax base centred on customs duties, accommodation tax, stamp duty, and sector-specific levies, with no income tax, corporation tax, or VAT. The Inland Revenue Department's recent modernisation activity is limited to automated remittance form distribution and field compliance visits, neither of which involves e-invoicing.",
+    "hasDossier": true
   },
   {
     "slug": "tuvalu",
@@ -2956,11 +2956,11 @@
     "region": "Middle East",
     "status": "phasing",
     "statusLabel": "Rollout underway",
-    "keyDate": "Mandatory B2B and B2G from 1 Jan 2027 (wave 1); all other VAT-registered from 1 Jul 2027 (wave 2)",
-    "model": "Decentralised CTC and Exchange (DCTCE), 5-corner Peppol",
-    "format": "PINT AE (UBL 2.1 XML) plus Tax Data Document (TDD) reporting",
-    "authority": "Ministry of Finance (MoF) and Federal Tax Authority (FTA)",
-    "summary": "The UAE is implementing a phased mandatory e-invoicing regime under a decentralised clearance and exchange model (DCTCE) built on the Peppol 5-corner framework. A voluntary pilot phase opened on 1 July 2026, with mandatory compliance for large businesses from 1 January 2027 and all other VAT-registered businesses from 1 July 2027. Invoices must be issued in PINT AE (UBL 2.1 XML) format and exchanged via accredited service providers (ASPs); PDF, scanned, and Excel formats are not accepted.",
+    "keyDate": "Mandatory B2B/B2G from Jan 2027 (large businesses); all VAT-registered from Jul 2027",
+    "model": "5-corner (DCTCE) via Peppol",
+    "format": "PINT AE (UBL 2.1 XML) / Peppol",
+    "authority": "Ministry of Finance / Federal Tax Authority (FTA)",
+    "summary": "The UAE is implementing a phased mandatory e-invoicing programme supervised jointly by the Ministry of Finance and the Federal Tax Authority. A voluntary pilot phase opened in July 2026, with mandatory compliance for large businesses from 1 January 2027 and for all other VAT-registered businesses from 1 July 2027. The framework adopts a Peppol-based five-corner model and requires invoices in structured XML format aligned with PINT AE standards, transmitted through FTA-accredited service providers.",
     "hasDossier": true
   },
   {
@@ -3076,9 +3076,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "Service des Douanes et des Droits Indirects, Wallis and Futuna",
-    "summary": "Wallis & Futuna operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. French Overseas Collectivity (COM) with its own local tax arrangements — outside the scope of France's national e-invoicing reform, consistent with other French COMs. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "Service des Douanes et Contributions Diverses, Wallis-et-Futuna",
+    "summary": "Wallis and Futuna is a French overseas collectivity with its own autonomous customs and indirect-tax administration, the Service des Douanes et Contributions Diverses, operating independently from metropolitan France. No e-invoicing mandate, platform, or credible programme has been identified for the territory. France's national e-invoicing reform, phasing from September 2026, does not extend to Wallis and Futuna, which lies outside the scope of French VAT law.",
+    "hasDossier": true
   },
   {
     "slug": "western-sahara",
@@ -3089,9 +3089,9 @@
     "keyDate": "No mandate",
     "model": "—",
     "format": "—",
-    "authority": "De facto administered by Morocco’s Direction Générale des Impôts in areas under Moroccan control; no independent tax administration",
-    "summary": "Western Sahara operates its own independent tax administration, distinct from any parent/host state, but no e-invoicing mandate, platform, or credible programme has been found. Disputed territory. The areas under Moroccan administration (the majority) apply Moroccan tax law in practice; the Polisario-controlled areas and the Sahrawi Arab Democratic Republic government-in-exile have no effective territorial tax administration. No independent e-invoicing mandate exists. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false
+    "authority": "No independent tax administration; Moroccan DGI administers areas under Moroccan control",
+    "summary": "Western Sahara is a disputed territory with no independent tax administration. The majority of the territory is administered in practice by Morocco's Direction Générale des Impôts (DGI), which is developing its own national e-invoicing reform, but no e-invoicing mandate applies to Western Sahara as a distinct jurisdiction. No independent e-invoicing framework, platform, or legal instrument exists for Western Sahara.",
+    "hasDossier": true
   },
   {
     "slug": "yemen",
