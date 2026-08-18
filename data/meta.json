@@ -1,14 +1,14 @@
 {
   "total": 241,
   "counts": {
-    "none": 90,
-    "live": 65,
-    "voluntary": 20,
-    "phasing": 37,
-    "announced": 17,
-    "proposed": 12
+    "none": 87,
+    "live": 74,
+    "proposed": 14,
+    "phasing": 40,
+    "announced": 15,
+    "voluntary": 11
   },
-  "updated": "2026-08-13T10:59:59.633Z",
-  "exported_at": "2026-08-13T11:00:00.400Z",
+  "updated": "2026-08-18T18:00:01.538Z",
+  "exported_at": "2026-08-18T18:00:01.930Z",
   "source": "https://e-invoicing.org"
 }
