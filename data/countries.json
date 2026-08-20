@@ -70,11 +70,11 @@
     "region": "Europe",
     "status": "phasing",
     "statusLabel": "Rollout underway",
-    "keyDate": "B2G mandatory from Jan 2025 (general administration); communes and other public entities from Jan 2027",
-    "model": "Portal-based (government supplier portal)",
-    "format": "Electronically signed PDF (transitional); structured e-invoice (phased in)",
+    "keyDate": "B2G general admin from Jan 2025; other public bodies Jan 2027",
+    "model": "B2G portal",
+    "format": "Signed PDF (transition); structured TBC",
     "authority": "Govern d'Andorra",
-    "summary": "Andorra has introduced mandatory e-invoicing for suppliers to its general public administration from January 1, 2025, via a dedicated government portal and register launched on October 1, 2024. Communes and other public entities follow on January 1, 2027, after a one-year extension confirmed in December 2025. There is no domestic B2B or B2C e-invoicing mandate, and the Departament de Tributs i de Fronteres has not announced any roadmap for one.",
+    "summary": "Andorra has no domestic B2B e-invoicing or transaction level CTC mandate, and the tax authority has not announced a parallel EU style roadmap as of 2026. Public sector invoicing is already live for the general administration through the official invoice portal and register that opened on 1 October 2024, with the obligation in force from 1 January 2025. Communes, dependent entities, and other public bodies were extended to 1 January 2027, and some entities still accept electronically signed PDF invoices until structured e-invoicing is fully in place.",
     "hasDossier": true
   },
   {
