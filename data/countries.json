@@ -226,11 +226,11 @@
     "region": "Asia-Pacific",
     "status": "phasing",
     "statusLabel": "Rollout underway",
-    "keyDate": "Phased rollout ongoing; full mandate date not yet confirmed",
-    "model": "TBC (VAT clearance model under development)",
-    "format": "TBC (NBR XML/JSON, in development)",
-    "authority": "NBR (National Board of Revenue)",
-    "summary": "Bangladesh's National Board of Revenue is rolling out a national VAT e-invoicing programme under the VAT and Supplementary Duty Act 2012, with a pilot launched in 2023 and phased onboarding progressing through 2024 to 2026. As of mid-2026, binding go-live dates and final technical specifications have not been formally confirmed by the NBR. Sectoral pilots continue to expand, with broader mandatory scope pending formal legislative communication.",
+    "keyDate": "Phased B2B; 2026 window TBC",
+    "model": "Clearance",
+    "format": "NBR XML/JSON (in development)",
+    "authority": "NBR",
+    "summary": "Bangladesh National Board of Revenue (NBR) is described as rolling out a national VAT electronic invoicing programme for B2B invoices, with a 2023 pilot and later waves of VAT registered businesses. The intended design is real time or near real time clearance linked to NBR VAT online filing. As of early 2026, binding go live dates, final XML or JSON specifications, and full scope mandate legislation were still evolving, so obligations should be confirmed with NBR.",
     "hasDossier": true
   },
   {
