@@ -1266,11 +1266,11 @@
     "region": "Asia-Pacific",
     "status": "live",
     "statusLabel": "Mandate live",
-    "keyDate": "Mandatory B2B/B2G above ₹5 crore from 1 August 2023; B2C pilot voluntary from September 2024",
+    "keyDate": "B2B > ₹5 crore from 1 Aug 2023",
     "model": "Clearance (IRP)",
-    "format": "GST INV-01 JSON schema",
+    "format": "GST INV-01 JSON",
     "authority": "GSTN / CBIC",
-    "summary": "India operates a centralised, real-time clearance-based e-invoicing system under the GST framework, mandatory for B2B, B2G and export transactions for taxpayers with aggregate annual turnover above ₹5 crore as of 1 August 2023. Suppliers must submit invoices in a prescribed JSON format to an authorised Invoice Registration Portal before issuance; the IRP validates, digitally signs, assigns an Invoice Reference Number and returns a QR code that must appear on the final invoice. A voluntary B2C pilot was recommended by the GST Council in September 2024 and is in progress.",
+    "summary": "B2B e-invoicing through Invoice Registration Portals is mandatory above ₹5 crore turnover; IRN and QR code are required for validity. Covered taxpayers upload GST INV-01 JSON to an IRP; the invoice is valid only after clearance. From 1 April 2025, taxpayers with AATO above ₹10 crore must upload to the IRP within 30 days of the invoice date.",
     "hasDossier": true
   },
   {
