@@ -3,7 +3,7 @@
 A structured, machine-readable **summary** of the global e-invoicing
 mandate tracker at **[e-invoicing.org](https://e-invoicing.org)** — status,
 model, format, and issuing authority for 241 countries and territories,
-plus 488 tracked mandate obligations (B2B/B2G, per flow and segment) with
+plus 511 tracked mandate obligations (B2B/B2G, per flow and segment) with
 effective dates and legal basis.
 
 This is a teaser layer, not a mirror. The full curated write-up for each
