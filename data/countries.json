@@ -35,50 +35,6 @@
     "scope_tags": []
   },
   {
-    "slug": "aland-islands",
-    "name": "Åland Islands",
-    "region": "Europe",
-    "status": "announced",
-    "statusLabel": "Announced — dated",
-    "keyDate": "B2B from 1 July 2030 (EU ViDA)",
-    "model": "Decentralised operator network",
-    "format": "Finvoice 3.0, TEAPPSXML 3.0, Peppol BIS Billing 3.0 (EN 16931-compliant)",
-    "authority": "Finnish Tax Administration (Verohallinto) and State Treasury (Valtiokonttori) as Peppol Authority",
-    "summary": "Åland Islands does not operate a separate e-invoicing regime and is administered under Finnish law for tax and invoicing purposes. Finland has a live B2G e-invoicing mandate under Act 241/2019, requiring all suppliers to public authorities to issue EN 16931-compliant structured e-invoices; this obligation has applied to all public bodies since April 2020 and was extended to full EN 16931 compliance for all B2G and qualifying B2B transactions from April 2021. There is no general B2B or B2C mandate, though any Finnish business with annual turnover above EUR 10,000 has a statutory right to demand structured e-invoices from its suppliers. No national ViDA implementing legislation has been published as of the source dates; EU-wide requirements are expected to apply from 1 July 2030.",
-    "hasDossier": true,
-    "flows": {
-      "b2b": {
-        "einvoicing": {
-          "status": "voluntary",
-          "next_date": "2030-07-01",
-          "since_date": "2021-04-01",
-          "date_precision": "day",
-          "since_precision": "day",
-          "trust": null
-        },
-        "digital_reporting": null
-      },
-      "b2g": {
-        "einvoicing": {
-          "status": "live",
-          "next_date": null,
-          "since_date": "2019-04-01",
-          "date_precision": "day",
-          "since_precision": "day",
-          "trust": null
-        },
-        "digital_reporting": null
-      },
-      "b2c": {
-        "einvoicing": null,
-        "digital_reporting": null
-      }
-    },
-    "scope_tags": [
-      "e-invoicing"
-    ]
-  },
-  {
     "slug": "albania",
     "name": "Albania",
     "region": "Europe",
@@ -135,7 +91,7 @@
     "region": "Africa",
     "status": "proposed",
     "statusLabel": "Proposed",
-    "keyDate": "B2G issue since Since January 2023 (voluntary)",
+    "keyDate": "B2G issue since Since 2023 (voluntary)",
     "model": "TBC",
     "format": "TBC",
     "authority": "DGI",
@@ -252,8 +208,8 @@
     "status": "live",
     "statusLabel": "Mandate live",
     "keyDate": "B2B since 1 January 2026",
-    "model": "Post-clearance — invoices generated via AGT-certified software, transmitted to AGT for registration then content validation; rejected/invalid invoices are treated as not issued",
-    "format": "JSON (for AGT data exchange); human-readable versions (e.g. PDF) must include a specified QR code",
+    "model": "Post-clearance via AGT-certified software",
+    "format": "JSON (AGT) + QR on human-readable copy",
     "authority": "Administração Geral Tributária (AGT) — General Tax Administration",
     "summary": "Angola is implementing a phased mandatory e-invoicing system under Presidential Decree No. 71/25 (20 March 2025), with detailed technical rules set out in Executive Decree 683/25. The Decree became effective mid-September 2025 (six months after publication), followed by a \"soft landing\" transition period (1 October-31 December 2025) during which businesses could use old invoice formats without penalty while the General Tax Administration (AGT) finalised software certification. Phase 1 became mandatory from 1 January 2026, applying to large taxpayers (annual turnover ≥ Kz 350 million), government suppliers (B2G), and any invoice of very high value (≥ Kz 25 million) regardless of issuer size. Phase 2 runs September 2026-January 2027, extending the mandate to all remaining VAT-registered businesses under the General or Simplified VAT regimes by 1 January 2027. The system operates a post-clearance model: invoices are generated via AGT-certified software in JSON format, transmitted to AGT for registration and then content validation, with rejected or invalid invoices treated as not issued at all.",
     "hasDossier": true,
@@ -548,7 +504,7 @@
     "region": "Europe",
     "status": "proposed",
     "statusLabel": "Proposed",
-    "keyDate": "B2G issue since 18 April 2020",
+    "keyDate": "B2G receive since 18 April 2020",
     "model": "Portal submission via USP / e-Rechnung.gv.at or Peppol eDelivery network",
     "format": "ebInterface XML",
     "authority": "Bundesministerium für Finanzen (BMF)",
@@ -2031,57 +1987,6 @@
     ]
   },
   {
-    "slug": "ivory-coast",
-    "name": "Côte d’Ivoire",
-    "region": "Africa",
-    "status": "live",
-    "statusLabel": "Mandate live",
-    "keyDate": "B2B issue since 1 September 2025",
-    "model": "Clearance",
-    "format": "National FNE XML",
-    "authority": "DGI",
-    "summary": "Côte d'Ivoire launched the Facture Normalisée Électronique (FNE) clearance platform on 21 July 2025, with nationwide mandatory use for VAT registered taxpayers from 1 September 2025. Invoices (FNE) and retail receipts (RNE) must be prevalidated by the Direction Générale des Impôts before delivery to the customer. By February 2026 more than 52,000 businesses were registered on the platform.",
-    "hasDossier": true,
-    "flows": {
-      "b2b": {
-        "einvoicing": {
-          "status": "live",
-          "next_date": null,
-          "since_date": "2025-09-01",
-          "date_precision": "day",
-          "since_precision": "day",
-          "trust": null
-        },
-        "digital_reporting": null
-      },
-      "b2g": {
-        "einvoicing": {
-          "status": "live",
-          "next_date": null,
-          "since_date": "2025-09-01",
-          "date_precision": "day",
-          "since_precision": "day",
-          "trust": null
-        },
-        "digital_reporting": null
-      },
-      "b2c": {
-        "einvoicing": {
-          "status": "live",
-          "next_date": null,
-          "since_date": "2025-09-01",
-          "date_precision": "day",
-          "since_precision": "day",
-          "trust": null
-        },
-        "digital_reporting": null
-      }
-    },
-    "scope_tags": [
-      "e-invoicing"
-    ]
-  },
-  {
     "slug": "croatia",
     "name": "Croatia",
     "region": "Europe",
@@ -2263,6 +2168,94 @@
     ]
   },
   {
+    "slug": "ivory-coast",
+    "name": "Côte d’Ivoire",
+    "region": "Africa",
+    "status": "live",
+    "statusLabel": "Mandate live",
+    "keyDate": "B2B issue since 1 September 2025",
+    "model": "Clearance",
+    "format": "National FNE XML",
+    "authority": "DGI",
+    "summary": "Côte d'Ivoire launched the Facture Normalisée Électronique (FNE) clearance platform on 21 July 2025, with nationwide mandatory use for VAT registered taxpayers from 1 September 2025. Invoices (FNE) and retail receipts (RNE) must be prevalidated by the Direction Générale des Impôts before delivery to the customer. By February 2026 more than 52,000 businesses were registered on the platform.",
+    "hasDossier": true,
+    "flows": {
+      "b2b": {
+        "einvoicing": {
+          "status": "live",
+          "next_date": null,
+          "since_date": "2025-09-01",
+          "date_precision": "day",
+          "since_precision": "day",
+          "trust": null
+        },
+        "digital_reporting": null
+      },
+      "b2g": {
+        "einvoicing": {
+          "status": "live",
+          "next_date": null,
+          "since_date": "2025-09-01",
+          "date_precision": "day",
+          "since_precision": "day",
+          "trust": null
+        },
+        "digital_reporting": null
+      },
+      "b2c": {
+        "einvoicing": {
+          "status": "live",
+          "next_date": null,
+          "since_date": "2025-09-01",
+          "date_precision": "day",
+          "since_precision": "day",
+          "trust": null
+        },
+        "digital_reporting": null
+      }
+    },
+    "scope_tags": [
+      "e-invoicing"
+    ]
+  },
+  {
+    "slug": "dr-congo",
+    "name": "DR Congo",
+    "region": "Africa",
+    "status": "live",
+    "statusLabel": "Mandate live",
+    "keyDate": "B2B issue since 15 May 2026",
+    "model": "Fiscal devices (e-UF / e-MCF) with DGI transmission",
+    "format": "Facture Normalisée (fiscal device, QR)",
+    "authority": "DGI",
+    "summary": "The Democratic Republic of Congo fully enforces standardized invoicing (facture normalisée) from 15 May 2026. Taxable persons must issue invoices through DGI connected electronic fiscal devices or approved software, using e-UF where there is no billing system and e-MCF where software already exists, with transmission to the DGI and an official QR code on each validated invoice. VAT may be deducted only against a compliant standardized invoice; sector derogations and case by case relief still exist for some taxpayers.",
+    "hasDossier": true,
+    "flows": {
+      "b2b": {
+        "einvoicing": {
+          "status": "live",
+          "next_date": null,
+          "since_date": "2026-05-15",
+          "date_precision": "day",
+          "since_precision": "day",
+          "trust": null
+        },
+        "digital_reporting": null
+      },
+      "b2g": {
+        "einvoicing": null,
+        "digital_reporting": null
+      },
+      "b2c": {
+        "einvoicing": null,
+        "digital_reporting": null
+      }
+    },
+    "scope_tags": [
+      "e-invoicing"
+    ]
+  },
+  {
     "slug": "denmark",
     "name": "Denmark",
     "region": "Europe",
@@ -2407,43 +2400,6 @@
     ]
   },
   {
-    "slug": "dr-congo",
-    "name": "DR Congo",
-    "region": "Africa",
-    "status": "live",
-    "statusLabel": "Mandate live",
-    "keyDate": "B2B issue since 15 May 2026",
-    "model": "Fiscal devices (e-UF / e-MCF) with DGI transmission",
-    "format": "Facture Normalisée (fiscal device, QR)",
-    "authority": "DGI",
-    "summary": "The Democratic Republic of Congo fully enforces standardized invoicing (facture normalisée) from 15 May 2026. Taxable persons must issue invoices through DGI connected electronic fiscal devices or approved software, using e-UF where there is no billing system and e-MCF where software already exists, with transmission to the DGI and an official QR code on each validated invoice. VAT may be deducted only against a compliant standardized invoice; sector derogations and case by case relief still exist for some taxpayers.",
-    "hasDossier": true,
-    "flows": {
-      "b2b": {
-        "einvoicing": {
-          "status": "live",
-          "next_date": null,
-          "since_date": "2026-05-15",
-          "date_precision": "day",
-          "since_precision": "day",
-          "trust": null
-        },
-        "digital_reporting": null
-      },
-      "b2g": {
-        "einvoicing": null,
-        "digital_reporting": null
-      },
-      "b2c": {
-        "einvoicing": null,
-        "digital_reporting": null
-      }
-    },
-    "scope_tags": [
-      "e-invoicing"
-    ]
-  },
-  {
     "slug": "ecuador",
     "name": "Ecuador",
     "region": "Americas",
@@ -2501,10 +2457,10 @@
     "status": "live",
     "statusLabel": "Mandate live",
     "keyDate": "B2B issue since 15 December 2022",
-    "model": "Clearance via ETA portal",
+    "model": "Clearance",
     "format": "JSON or XML (ETA schema)",
     "authority": "Egyptian Tax Authority (ETA)",
-    "summary": "Egypt operates a fully mandatory clearance-based e-invoicing system supervised by the Egyptian Tax Authority. All VAT-registered businesses must issue JSON or XML invoices cleared in real time through the ETA portal, with paper invoices no longer valid for input VAT recovery or cost deduction as of 2023. B2C electronic receipts continue to roll out in phased waves, with the most recent wave taking effect 15 September 2025 under ETA Resolution No. 281 of 2025.",
+    "summary": "Egypt operates a fully mandatory clearance e-invoicing system supervised by the Egyptian Tax Authority. All VAT-registered businesses must issue JSON or XML invoices cleared in real time through the ETA portal, with paper invoices no longer valid for input VAT recovery or cost deduction as of 2023. B2C electronic receipts continue to roll out in phased waves, with the most recent wave taking effect 15 September 2025 under ETA Resolution No. 281 of 2025.",
     "hasDossier": true,
     "flows": {
       "b2b": {
@@ -2533,9 +2489,9 @@
         "einvoicing": {
           "status": "phasing",
           "next_date": null,
-          "since_date": "2022-07-01",
-          "date_precision": "day",
-          "since_precision": "day",
+          "since_date": null,
+          "date_precision": null,
+          "since_precision": null,
           "trust": null
         },
         "digital_reporting": null
@@ -2716,7 +2672,7 @@
     "region": "Africa",
     "status": "phasing",
     "statusLabel": "Rollout underway",
-    "keyDate": "B2B issue since Legal Notice No. 111 of 2026 in force 15 July 2026; operational rollout phased by sector starting with wholesale and retail",
+    "keyDate": "B2C issue since Legal Notice No. 111 of 2026 in force 15 July 2026; operational rollout phased by sector starting with wholesale and retail",
     "model": "Clearance adjacent: accredited EFD, unique identifier, real time or 15 day transmission to ERS",
     "format": "Structured fiscal data via accredited EFD (POS or E-SDC); schema not published",
     "authority": "Eswatini Revenue Service (ERS)",
@@ -3327,10 +3283,10 @@
     "status": "live",
     "statusLabel": "Mandate live",
     "keyDate": "B2B issue since 2 March 2026",
-    "model": "Peppol four-corner",
-    "format": "Peppol BIS 3.0 / EN 16931 (national CIUS)",
+    "model": "Interoperability (Peppol four-corner); EDHT fallback at GSIS",
+    "format": "Peppol BIS Billing CIUS 3.0 (EN 16931)",
     "authority": "IAPR (AADE)",
-    "summary": "Greece enacted Law 5222/2025 in July 2025, establishing mandatory structured B2B e-invoicing via the myDATA clearance platform. Phase A, covering large enterprises with 2023 revenues above EUR 1 million, became mandatory on 2 March 2026 following a one month postponement, with enforcement from 3 May 2026. Phase B, covering remaining entities with 2023 gross revenue at or below EUR 1 million, begins 2 November 2026 with a transition period to 31 January 2027; from 1 February 2027, certified providers or AADE apps only.",
+    "summary": "Greece enacted Law 5222/2025 in July 2025, establishing mandatory structured B2B e-invoicing via the myDATA clearance platform. Phase A, covering large enterprises with 2023 revenues above EUR 1 million, became mandatory on 2 March 2026 following a one month postponement, with enforcement from 3 May 2026. Phase B, covering all remaining VAT-registered businesses, begins 1 October 2026 with a transition period to 31 December 2026.",
     "hasDossier": true,
     "flows": {
       "b2b": {
@@ -3346,8 +3302,8 @@
           "status": "live",
           "next_date": null,
           "since_date": "2021-10-01",
-          "date_precision": "day",
-          "since_precision": "day",
+          "date_precision": "month",
+          "since_precision": "month",
           "trust": null
         }
       },
@@ -5091,7 +5047,7 @@
     "region": "Asia-Pacific",
     "status": "phasing",
     "statusLabel": "Rollout underway",
-    "keyDate": "B2C issue since Revenue waves from 1 Aug 2024 through 2026",
+    "keyDate": "B2G issue since Revenue waves from 1 Aug 2024 through 2026",
     "model": "Clearance (MyInvois CTC)",
     "format": "UBL 2.1 XML/JSON",
     "authority": "LHDN (IRBM)",
@@ -5183,7 +5139,7 @@
     "model": "Not confirmed in sources reviewed",
     "format": "Not confirmed in sources reviewed",
     "authority": "Direction Générale des Impôts (DGI)",
-    "summary": "No evidence of a concrete e-invoicing mandate, platform, or specific legislative proposal was found for Mali in the sources reviewed, despite the country's prior 'proposed' classification. Mali's Direction Générale des Impôts (DGI) — recognised as the country's best-digitalised administration during Mali's 2026 Digital Week — operates several genuine digital tax tools: E-Quitus (electronic tax clearance certificates, with a dedicated user manual), e-impôt (an online portal supporting financial-statement submission), and, from 1 July 2026, electronic payment of stamp duty on tax clearance certificates (Instruction N°2026-001/MEF-SG). None of these constitute structured, invoice-level e-invoicing or a Continuous Transaction Control system, and no source described such a system, a specific legislative proposal, or a timeline for one. Given the absence of supporting evidence, this dossier flags the prior 'proposed' status as unconfirmed rather than either fabricating a mandate narrative or unilaterally downgrading it.",
+    "summary": "No evidence of a concrete e-invoicing mandate, platform, or specific legislative proposal was found for Mali, despite an earlier proposed classification now recorded as none rather than treating unverified listings as a draft law. The Direction Générale des Impôts (DGI), recognised as the country's best digitalised administration during Mali's 2026 Digital Week, operates E-Quitus (electronic tax clearance certificates, with a dedicated user manual), e-impôt (an online portal supporting financial statement submission, in place since January 2019), and from 1 July 2026 electronic payment of stamp duty on tax clearance certificates (Instruction N°2026-001/MEF-SG of 10 April 2026). None of these constitute structured, invoice level e-invoicing or a Continuous Transaction Control system; a separate facture normalisée sécurisée framework (Decree 2022-0733/PT-RM of 25 November 2022) requires standardised invoices with security features and does not introduce XML, UBL, Peppol, real time transmission, or clearance.",
     "hasDossier": true,
     "flows": {
       "b2b": {
@@ -6455,7 +6411,7 @@
     "region": "Middle East",
     "status": "announced",
     "statusLabel": "Announced — dated",
-    "keyDate": "B2B issue from 1 April 2027",
+    "keyDate": "B2C issue from 1 April 2027",
     "model": "5-corner (Peppol)",
     "format": "XML (Peppol PINT OM)",
     "authority": "Oman Tax Authority",
@@ -6802,7 +6758,7 @@
     "region": "Asia-Pacific",
     "status": "phasing",
     "statusLabel": "Rollout underway",
-    "keyDate": "B2B issue from enforceable issuance 31 December 2026 (Stage 1 rollout began March 2026; original date 14 March 2026)",
+    "keyDate": "B2C issue from enforceable issuance 31 December 2026",
     "model": "Structured e-reporting (not clearance); buyer delivery unregulated",
     "format": "JSON",
     "authority": "Bureau of Internal Revenue (BIR)",
@@ -7109,41 +7065,6 @@
     ]
   },
   {
-    "slug": "reunion",
-    "name": "Réunion",
-    "region": "Africa",
-    "status": "proposed",
-    "statusLabel": "Proposed",
-    "keyDate": "Follows France's tax regime — no separate territorial mandate",
-    "model": "—",
-    "format": "—",
-    "authority": "Same as France (france)",
-    "summary": "Réunion does not run its own independent tax administration for e-invoicing purposes; it follows France's regime directly. Réunion is a full French département/région (DROM), fiscally integrated into France. French tax law, including the national e-invoicing/e-reporting reform, applies directly. See the France dossier for the applicable e-invoicing rules. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
-    "hasDossier": false,
-    "flows": {
-      "b2b": {
-        "einvoicing": {
-          "status": "none",
-          "next_date": null,
-          "since_date": null,
-          "date_precision": null,
-          "since_precision": null,
-          "trust": null
-        },
-        "digital_reporting": null
-      },
-      "b2g": {
-        "einvoicing": null,
-        "digital_reporting": null
-      },
-      "b2c": {
-        "einvoicing": null,
-        "digital_reporting": null
-      }
-    },
-    "scope_tags": []
-  },
-  {
     "slug": "romania",
     "name": "Romania",
     "region": "Europe",
@@ -7281,6 +7202,41 @@
     "scope_tags": [
       "e-invoicing"
     ]
+  },
+  {
+    "slug": "reunion",
+    "name": "Réunion",
+    "region": "Africa",
+    "status": "proposed",
+    "statusLabel": "Proposed",
+    "keyDate": "Follows France's tax regime — no separate territorial mandate",
+    "model": "—",
+    "format": "—",
+    "authority": "Same as France (france)",
+    "summary": "Réunion does not run its own independent tax administration for e-invoicing purposes; it follows France's regime directly. Réunion is a full French département/région (DROM), fiscally integrated into France. French tax law, including the national e-invoicing/e-reporting reform, applies directly. See the France dossier for the applicable e-invoicing rules. (Added 10 August 2026 as part of an ISO 3166-1 territory-coverage audit — confirmed case-by-case, not assumed from constitutional status alone.)",
+    "hasDossier": false,
+    "flows": {
+      "b2b": {
+        "einvoicing": {
+          "status": "none",
+          "next_date": null,
+          "since_date": null,
+          "date_precision": null,
+          "since_precision": null,
+          "trust": null
+        },
+        "digital_reporting": null
+      },
+      "b2g": {
+        "einvoicing": null,
+        "digital_reporting": null
+      },
+      "b2c": {
+        "einvoicing": null,
+        "digital_reporting": null
+      }
+    },
+    "scope_tags": []
   },
   {
     "slug": "st-barthelemy",
@@ -7495,48 +7451,13 @@
     ]
   },
   {
-    "slug": "sao-tome",
-    "name": "São Tomé & Príncipe",
-    "region": "Africa",
-    "status": "proposed",
-    "statusLabel": "Proposed",
-    "keyDate": "No evidence of an e-invoicing mandate, platform, or specific legislative proposal was found in the sources reviewed",
-    "model": "Not confirmed in sources reviewed",
-    "format": "Not confirmed in sources reviewed",
-    "authority": "Direção Geral das Contribuições e Impostos, São Tomé & Príncipe",
-    "summary": "No evidence of a concrete e-invoicing mandate, platform, or specific legislative proposal was found for São Tomé & Príncipe in the sources reviewed. No government-confirmed mandate, law, or proposal was found; sources include an unrelated US development-aid program page and generic vendor content.",
-    "hasDossier": true,
-    "flows": {
-      "b2b": {
-        "einvoicing": null,
-        "digital_reporting": null
-      },
-      "b2g": {
-        "einvoicing": {
-          "status": "none",
-          "next_date": null,
-          "since_date": null,
-          "date_precision": null,
-          "since_precision": null,
-          "trust": null
-        },
-        "digital_reporting": null
-      },
-      "b2c": {
-        "einvoicing": null,
-        "digital_reporting": null
-      }
-    },
-    "scope_tags": []
-  },
-  {
     "slug": "saudi-arabia",
     "name": "Saudi Arabia",
     "region": "Middle East",
     "status": "live",
     "statusLabel": "Mandate live",
     "keyDate": "B2B issue since 4 December 2021",
-    "model": "Generation (structured e-invoice; no Fatoora clearance in Phase 1)",
+    "model": "Generation of simplified tax invoices with TLV QR",
     "format": "UBL 2.1 XML with ZATCA-specific extensions",
     "authority": "ZATCA",
     "summary": "Saudi Arabia FATOORA e-invoicing is fully operational under ZATCA. Phase 1 has required all resident VAT registered taxpayers to generate structured electronic invoices since December 2021 (4 December 2021). Phase 2, live from 1 January 2023 in over 24 revenue based waves, adds mandatory API integration with the FATOORA platform for real time B2B/B2G clearance and 24 hour B2C reporting; Wave 24 used a SAR 375,000 threshold, and Wave 25 requires integration by 1 February 2027 for VAT subject revenue above SAR 187,500 in any of 2022 to 2025.",
@@ -7594,20 +7515,20 @@
     "region": "Africa",
     "status": "announced",
     "statusLabel": "Announced — dated",
-    "keyDate": "B2B since 2025 Finance Bill ends the voluntary status e-invoicing has held since 2008, making electronic invoicing mandatory for all taxable entities; no official implementation timeline had been released as of the sources reviewed",
-    "model": "Not yet finalised — invoices must be submitted in a structured electronic format via either a public invoicing portal or another authority-designated digital platform; exact format and platform not yet specified",
-    "format": "Structured electronic format — specific standard not yet specified; Benin's e-MECeF (structured JSON files to a centralised platform) referenced as a potential model",
+    "keyDate": "pending ministerial order or decree; no official go live date",
+    "model": "public invoicing portal or administration designated platform (TBC)",
+    "format": "structured electronic format (standard TBC)",
     "authority": "Direction Générale des Impôts et des Domaines (DGID)",
-    "summary": "Senegal's Directorate General of Taxes and Domains (DGID) is transitioning e-invoicing from a voluntary option (permitted since 2008 under the General Tax Code but never centrally systemised, resulting in limited adoption) to a mandatory regime, via the 2025 Finance Bill. The new legislation applies to all taxable entities and requires invoices to be submitted in a structured electronic format through either a public invoicing portal or another digital platform designated by the authorities; the exact technical format has not been specified, though Senegal has looked to neighbouring Benin's e-MECeF system (structured JSON files to a centralised platform) as a potential model. Non-compliance — failing to issue, transmit, or receive electronic invoices — carries fines of 25% of the VAT that should have been invoiced electronically, capped at XOF 5 million (approximately EUR 7,700) per invoice. No official implementation timeline had been released as of the sources reviewed.",
+    "summary": "Senegal is moving e-invoicing from a voluntary option permitted since 2008 under the General Tax Code (never centrally systemised, limited adoption) to a mandatory regime for all taxable entities. Law No. 2025-02 of 28 December 2024 (the 2025 finance law) amends the Code général des impôts, inserting a new II in Article 447 that obliges taxable persons to issue electronic invoices in a structured electronic format via a public invoicing portal or another platform designated by the administration; an order or decree of the Minister of Finance and Budget is to set the detailed rules, and no official go live date or technical standard had been published. Failure to issue, transmit or receive invoices in the required electronic form attracts a fine of 25% of the VAT charged or that should have been charged, capped at XOF 5 million (approximately EUR 7,700) per invoice; Senegal has looked to Benin's e-MECeF (structured JSON files to a centralised platform) as a potential model.",
     "hasDossier": true,
     "flows": {
       "b2b": {
         "einvoicing": {
           "status": "announced",
           "next_date": null,
-          "since_date": "2008-01-01",
-          "date_precision": "day",
-          "since_precision": "day",
+          "since_date": null,
+          "date_precision": null,
+          "since_precision": null,
           "trust": null
         },
         "digital_reporting": null
@@ -8111,7 +8032,7 @@
     "statusLabel": "Announced — dated",
     "keyDate": "B2B from 6 October 2027",
     "model": "Central platform (FACe)",
-    "format": "Facturae (qualified certificate electronic signature); EN 16931 accepted by public authorities",
+    "format": "Facturae; EN 16931 for contracts above EU public procurement thresholds",
     "authority": "AEAT",
     "summary": "Spain has required structured Facturae invoices for supplies to public administrations, through FACe, since 15 January 2015. Orden HAC/1028/2026 of 2 October was published in the BOE on 5 October 2026 and entered into force on 6 October 2026. From that date the periods in Royal Decree 238/2026 run: businesses and professionals whose article 121 turnover exceeded EUR 8 million in the preceding calendar year must issue, send and receive electronic invoices, and report invoice states and payments, from 6 October 2027. Every other in-scope business and professional must issue, send and receive electronic invoices from 6 October 2028. Natural persons and income-attribution entities at or below that turnover threshold report invoice states and payments from 6 October 2029.",
     "hasDossier": true,
@@ -8303,7 +8224,7 @@
     "region": "Africa",
     "status": "phasing",
     "statusLabel": "Rollout underway",
-    "keyDate": "B2B issue since beginning of May 2026",
+    "keyDate": "B2C issue since beginning of May 2026",
     "model": "Clearance (real time submission to the Taxation Chamber)",
     "format": "TBC",
     "authority": "Sudan Taxation Chamber (STA)",
@@ -8417,9 +8338,9 @@
     "region": "Europe",
     "status": "live",
     "statusLabel": "Mandate live",
-    "keyDate": "B2G issue since 1 April 2019",
+    "keyDate": "B2G receive since 1 April 2019",
     "model": "Peppol (decentralised, no central platform)",
-    "format": "Peppol BIS Billing 3.0 / EN 16931",
+    "format": "EN 16931 (Peppol BIS Billing 3.0 preferred)",
     "authority": "Skatteverket / DIGG (Peppol authority transferring to Upphandlingsmyndigheten from Jul 2026)",
     "summary": "Sweden has a live B2G e-invoicing mandate covering central government agencies since 2008, and all public procurement contracts since 2019, with suppliers required to issue EN 16931-compliant invoices and all contracting authorities required to receive them via the Peppol network. B2B e-invoicing remains voluntary but is widely practised. A formal government inquiry launched in February 2026 will assess whether domestic B2B e-invoicing and digital reporting requirements should be introduced, with findings due no later than November 2027.",
     "hasDossier": true,
@@ -8521,6 +8442,41 @@
     "scope_tags": [
       "e-invoicing"
     ]
+  },
+  {
+    "slug": "sao-tome",
+    "name": "São Tomé & Príncipe",
+    "region": "Africa",
+    "status": "proposed",
+    "statusLabel": "Proposed",
+    "keyDate": "No evidence of an e-invoicing mandate, platform, or specific legislative proposal was found in the sources reviewed",
+    "model": "Not confirmed in sources reviewed",
+    "format": "Not confirmed in sources reviewed",
+    "authority": "Direção Geral das Contribuições e Impostos, São Tomé & Príncipe",
+    "summary": "No evidence of a concrete e-invoicing mandate, platform, or specific legislative proposal was found for São Tomé & Príncipe in the sources reviewed. No government-confirmed mandate, law, or proposal was found; sources include an unrelated US development-aid program page and generic vendor content.",
+    "hasDossier": true,
+    "flows": {
+      "b2b": {
+        "einvoicing": null,
+        "digital_reporting": null
+      },
+      "b2g": {
+        "einvoicing": {
+          "status": "none",
+          "next_date": null,
+          "since_date": null,
+          "date_precision": null,
+          "since_precision": null,
+          "trust": null
+        },
+        "digital_reporting": null
+      },
+      "b2c": {
+        "einvoicing": null,
+        "digital_reporting": null
+      }
+    },
+    "scope_tags": []
   },
   {
     "slug": "taiwan",
@@ -8906,65 +8862,6 @@
     ]
   },
   {
-    "slug": "turkey",
-    "name": "Türkiye",
-    "region": "Europe",
-    "status": "live",
-    "statusLabel": "Mandate live",
-    "keyDate": "B2B since 2014",
-    "model": "Clearance (e-Fatura)",
-    "format": "UBL-TR XML",
-    "authority": "Turkish Revenue Administration (GİB — Gelir İdaresi Başkanlığı)",
-    "summary": "Türkiye operates one of the world's most mature continuous transaction control regimes, with e-Fatura (clearance) covering B2B and B2G transactions and e-Arşiv (quasi real time reporting) covering B2C and smaller B2B transactions. Both systems are administered by GİB and use the UBL-TR XML format with mandatory digital signatures. Thresholds have been progressively lowered since 2014, with the general e-Fatura threshold standing at TRY 3 million annual gross sales from 1 January 2026 and sector specific thresholds as low as TRY 500,000 for e-commerce, real estate, motor vehicles, construction, and intermediary sectors.",
-    "hasDossier": true,
-    "flows": {
-      "b2b": {
-        "einvoicing": {
-          "status": "live",
-          "next_date": null,
-          "since_date": "2014-01-01",
-          "date_precision": "year",
-          "since_precision": "year",
-          "trust": null
-        },
-        "digital_reporting": {
-          "status": "live",
-          "next_date": null,
-          "since_date": "2013-01-01",
-          "date_precision": "year",
-          "since_precision": "year",
-          "trust": null
-        }
-      },
-      "b2g": {
-        "einvoicing": {
-          "status": "live",
-          "next_date": null,
-          "since_date": "2014-01-01",
-          "date_precision": "year",
-          "since_precision": "year",
-          "trust": null
-        },
-        "digital_reporting": null
-      },
-      "b2c": {
-        "einvoicing": null,
-        "digital_reporting": {
-          "status": "live",
-          "next_date": null,
-          "since_date": "2013-01-01",
-          "date_precision": "year",
-          "since_precision": "year",
-          "trust": null
-        }
-      }
-    },
-    "scope_tags": [
-      "e-invoicing",
-      "digital-reporting"
-    ]
-  },
-  {
     "slug": "turkmenistan",
     "name": "Turkmenistan",
     "region": "Asia-Pacific",
@@ -9068,6 +8965,65 @@
       }
     },
     "scope_tags": []
+  },
+  {
+    "slug": "turkey",
+    "name": "Türkiye",
+    "region": "Europe",
+    "status": "live",
+    "statusLabel": "Mandate live",
+    "keyDate": "B2B since 2014",
+    "model": "Clearance (e-Fatura)",
+    "format": "UBL-TR XML",
+    "authority": "Turkish Revenue Administration (GİB — Gelir İdaresi Başkanlığı)",
+    "summary": "Türkiye operates one of the world's most mature continuous transaction control regimes, with e-Fatura (clearance) covering B2B and B2G transactions and e-Arşiv (quasi real time reporting) covering B2C and smaller B2B transactions. Both systems are administered by GİB and use the UBL-TR XML format with mandatory digital signatures. Thresholds have been progressively lowered since 2014, with the general e-Fatura threshold standing at TRY 3 million annual gross sales from 1 January 2026 and sector specific thresholds as low as TRY 500,000 for e-commerce, real estate, motor vehicles, construction, and intermediary sectors.",
+    "hasDossier": true,
+    "flows": {
+      "b2b": {
+        "einvoicing": {
+          "status": "live",
+          "next_date": null,
+          "since_date": "2014-01-01",
+          "date_precision": "year",
+          "since_precision": "year",
+          "trust": null
+        },
+        "digital_reporting": {
+          "status": "live",
+          "next_date": null,
+          "since_date": "2013-01-01",
+          "date_precision": "year",
+          "since_precision": "year",
+          "trust": null
+        }
+      },
+      "b2g": {
+        "einvoicing": {
+          "status": "live",
+          "next_date": null,
+          "since_date": "2014-01-01",
+          "date_precision": "year",
+          "since_precision": "year",
+          "trust": null
+        },
+        "digital_reporting": null
+      },
+      "b2c": {
+        "einvoicing": null,
+        "digital_reporting": {
+          "status": "live",
+          "next_date": null,
+          "since_date": "2013-01-01",
+          "date_precision": "year",
+          "since_precision": "year",
+          "trust": null
+        }
+      }
+    },
+    "scope_tags": [
+      "e-invoicing",
+      "digital-reporting"
+    ]
   },
   {
     "slug": "us-virgin-islands",
@@ -9188,7 +9144,7 @@
     "model": "Peppol 5-corner (DCTCE)",
     "format": "PINT AE (UBL 2.1 XML)",
     "authority": "Ministry of Finance / Federal Tax Authority",
-    "summary": "Pilot phase opened July 2026. A person with revenue equal to or exceeding AED 50,000,000 must appoint an accredited service provider by 30 October 2026 and go live on 1 January 2027. A person with revenue below AED 50,000,000 appoints an ASP by 31 March 2027 and goes live on 1 July 2027, whether or not they are VAT-registered. Government entities appoint an ASP by 31 March 2027 and go live on 1 October 2027.",
+    "summary": "Pilot phase opened July 2026. B2B and B2G e-invoicing via accredited service providers becomes mandatory for large businesses (revenue of AED 50 million or more) on 1 January 2027 and for all other VAT-registered businesses on 1 July 2027. In-scope government entities go live on 1 October 2027; first wave ASP appointment is by 30 October 2026 and the 1 January 2027 go live date is unchanged.",
     "hasDossier": true,
     "flows": {
       "b2b": {
@@ -9228,7 +9184,7 @@
     "region": "Europe",
     "status": "announced",
     "statusLabel": "Announced — dated",
-    "keyDate": "B2B issue from 1 April 2029",
+    "keyDate": "B2G issue from 1 April 2029",
     "model": "Peppol network",
     "format": "Peppol",
     "authority": "HMRC (His Majesty's Revenue and Customs)",
@@ -9745,6 +9701,50 @@
           "since_date": "2022-01-01",
           "date_precision": "year",
           "since_precision": "year",
+          "trust": null
+        },
+        "digital_reporting": null
+      },
+      "b2c": {
+        "einvoicing": null,
+        "digital_reporting": null
+      }
+    },
+    "scope_tags": [
+      "e-invoicing"
+    ]
+  },
+  {
+    "slug": "aland-islands",
+    "name": "Åland Islands",
+    "region": "Europe",
+    "status": "announced",
+    "statusLabel": "Announced — dated",
+    "keyDate": "B2B from 1 July 2030 (EU ViDA)",
+    "model": "Decentralised operator network",
+    "format": "Finvoice 3.0, TEAPPSXML 3.0, Peppol BIS Billing 3.0 (EN 16931-compliant)",
+    "authority": "Finnish Tax Administration (Verohallinto) and State Treasury (Valtiokonttori) as Peppol Authority",
+    "summary": "Åland Islands does not operate a separate e-invoicing regime and is administered under Finnish law for tax and invoicing purposes. Finland has a live B2G e-invoicing mandate under Act 241/2019, requiring all suppliers to public authorities to issue EN 16931-compliant structured e-invoices; this obligation has applied to all public bodies since April 2020 and was extended to full EN 16931 compliance for all B2G and qualifying B2B transactions from April 2021. There is no general B2B or B2C mandate, though any Finnish business with annual turnover above EUR 10,000 has a statutory right to demand structured e-invoices from its suppliers. No national ViDA implementing legislation has been published as of the source dates; EU-wide requirements are expected to apply from 1 July 2030.",
+    "hasDossier": true,
+    "flows": {
+      "b2b": {
+        "einvoicing": {
+          "status": "voluntary",
+          "next_date": "2030-07-01",
+          "since_date": "2021-04-01",
+          "date_precision": "day",
+          "since_precision": "day",
+          "trust": null
+        },
+        "digital_reporting": null
+      },
+      "b2g": {
+        "einvoicing": {
+          "status": "live",
+          "next_date": null,
+          "since_date": "2019-04-01",
+          "date_precision": "day",
+          "since_precision": "day",
           "trust": null
         },
         "digital_reporting": null

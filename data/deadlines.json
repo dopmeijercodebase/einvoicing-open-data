@@ -72,6 +72,42 @@
         "tier": 1,
         "source_date": null,
         "checked_at": null
+      },
+      {
+        "url": "https://tax.gov.ae/Datafolder/Files/Legislation/2025/Cabinet%20Decision%20No.%20106%20of%202025.pdf",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-the-issuance-of-cabinet-resolution-on-administrative-fines-related-to-electronic-invoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/content/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/taxes/Vat/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/issuance-of-amendments-to-federal-decree-law-on-tax-procedures-and-federal-decree-law-on-value-added-tax-to-support-the-einvoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-targeted-amendments-to-einvoicing-system-decisions",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-targeted-amendments-to-einvoicing-system-decisions",
@@ -103,6 +139,36 @@
         "tier": 1,
         "source_date": null,
         "checked_at": "2026-10-08"
+      },
+      {
+        "url": "https://tax.gov.ae/Datafolder/Files/Legislation/2025/Cabinet%20Decision%20No.%20106%20of%202025.pdf",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-the-issuance-of-cabinet-resolution-on-administrative-fines-related-to-electronic-invoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/content/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/taxes/Vat/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/issuance-of-amendments-to-federal-decree-law-on-tax-procedures-and-federal-decree-law-on-value-added-tax-to-support-the-einvoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
@@ -194,6 +260,36 @@
         "tier": 1,
         "source_date": null,
         "checked_at": "2026-10-08"
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/881983577/2025+Greece+2025+eInvoicing+Country+Sheet",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=861175818",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://peppol.org/learn-more/country-profiles/greece",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2026/01/15/data-on-a-greek-e-invoice-vs-data-reported-to-mydata-tax-authority-key-differences",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/x/roJDJw",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://www.aade.gr/ypohreotiki-ilektroniki-timologisi-psifiaka-parastatika-diakinisis-syhnes-erotiseis",
@@ -255,52 +351,16 @@
     "r18": false
   },
   {
-    "country": "philippines",
-    "name": "Philippines",
-    "slug": "philippines",
-    "scope": "e-invoicing",
-    "flow": "b2b",
+    "country": "greece",
+    "name": "Greece",
+    "slug": "greece",
+    "scope": null,
+    "flow": null,
     "date": "2026-12-31",
     "date_precision": "day",
-    "date_label": "enforceable issuance 31 December 2026 (Stage 1 rollout began March 2026; original date 14 March 2026)",
+    "date_label": "31 December 2026",
     "status": "phasing",
-    "requirement": "einvoicing",
-    "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": true
-  },
-  {
-    "country": "philippines",
-    "name": "Philippines",
-    "slug": "philippines",
-    "scope": "e-invoicing",
-    "flow": "b2c",
-    "date": "2026-12-31",
-    "date_precision": "day",
-    "date_label": "enforceable issuance 31 December 2026",
-    "status": "phasing",
-    "requirement": "einvoicing",
-    "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": false
-  },
-  {
-    "country": "philippines",
-    "name": "Philippines",
-    "slug": "philippines",
-    "scope": "e-invoicing",
-    "flow": "b2g",
-    "date": "2026-12-31",
-    "date_precision": "day",
-    "date_label": "enforceable issuance 31 December 2026",
-    "status": "phasing",
-    "requirement": "einvoicing",
+    "requirement": null,
     "jurisdiction_code": null,
     "trust_label": "unclassified",
     "sources": [],
@@ -354,6 +414,24 @@
     "date_precision": "year",
     "date_label": "2026",
     "status": "live",
+    "requirement": null,
+    "jurisdiction_code": null,
+    "trust_label": "unclassified",
+    "sources": [],
+    "source_url": null,
+    "source_checked_at": null,
+    "r18": false
+  },
+  {
+    "country": "algeria",
+    "name": "Algeria",
+    "slug": "algeria",
+    "scope": null,
+    "flow": null,
+    "date": "2026-01-01",
+    "date_precision": "year",
+    "date_label": "2026",
+    "status": "proposed",
     "requirement": null,
     "jurisdiction_code": null,
     "trust_label": "unclassified",
@@ -474,24 +552,6 @@
     "country": "dr-congo",
     "name": "DR Congo",
     "slug": "dr-congo",
-    "scope": null,
-    "flow": null,
-    "date": "2026-01-01",
-    "date_precision": "year",
-    "date_label": "2026",
-    "status": "live",
-    "requirement": null,
-    "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": false
-  },
-  {
-    "country": "egypt",
-    "name": "Egypt",
-    "slug": "egypt",
     "scope": null,
     "flow": null,
     "date": "2026-01-01",
@@ -903,24 +963,6 @@
     "r18": false
   },
   {
-    "country": "andorra",
-    "name": "Andorra",
-    "slug": "andorra",
-    "scope": "e-invoicing",
-    "flow": "b2g",
-    "date": "2027-01-01",
-    "date_precision": "day",
-    "date_label": "1 January 2027",
-    "status": "announced",
-    "requirement": "einvoicing",
-    "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": true
-  },
-  {
     "country": "angola",
     "name": "Angola",
     "slug": "angola",
@@ -1011,9 +1053,46 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=878215225",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=824770747",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Anwendungserlass/2025-10-15-einfuehrung-obligatorische-e-rechnung.html",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://e-rechnung-bund.de/en/e-invoicing/key-points-on-e-invoicing",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://e-rechnung-bund.de/en/d-easi-project-for-automated-incoming-e-invoice-processing",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.bdo.de/en-gb/services-en/tax-legal/one-stop-e-invoicing/e-invoicing-mandate-in-germany-from-2027",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=878215225",
     "source_checked_at": null,
     "r18": true
   },
@@ -1029,9 +1108,40 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://www.procurement.govt.nz/government-procurement-framework/government-procurement-rules/procurement-system-requirements/einvoicing-capability",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.einvoicing.govt.nz/get-set-up/advice-for-government-agencies",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.nzbn.govt.nz/using-the-nzbn/einvoicing",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.ird.govt.nz/updates/news-folder/2025/einvoicing-webinar-link-to-video-recording",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://stripe.com/en-br/resources/more/tax-invoice-requirements-in-new-zealand",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://www.procurement.govt.nz/government-procurement-framework/government-procurement-rules/procurement-system-requirements/einvoicing-capability",
     "source_checked_at": null,
     "r18": true
   },
@@ -1066,6 +1176,36 @@
         "tier": 3,
         "source_date": null,
         "checked_at": "2026-10-08"
+      },
+      {
+        "url": "https://www.theinvoicinghub.com/norways-e-invoicing-mandate-officially-approved/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.drdynamics.co.uk/blog/e-invoicing-norway-what-cfos-and-cios-need-to-know",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-norway/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.skatteetaten.no/en/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108905/eInvoicing+in+Norway",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://www.regjeringen.no/no/aktuelt/nye-lovregler-om-e-fakturering-i-naringslivet-og-enkelte-andre-lovendringer-pa-finansmarkedsomradet-settes-i-kraft/id3166726/",
@@ -1091,11 +1231,132 @@
         "tier": 1,
         "source_date": null,
         "checked_at": "2026-10-08"
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=860848167",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/658735775/Poland+2023+eInvoicing+Country+Sheet",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/04/29/ministry-of-finance-updates-obligatory-e-invoicing-regulations",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2026/05/02/poland-ksef-e-invoicing-mandate-a-comprehensive-guide",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://edicomgroup.com/blog/poland-will-make-b2b-electronic-invoicing-mandatory",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://saregofinance.pl/insights/practical_ksef_checklist/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.krgroup.eu/mandatory-national-system-of-e-invoices-ksef-the-ministry-of-finance-published-new-draft-of-changes",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.taxually.com/blog/poland-to-adopt-mandatory-b2b-e-invoicing-in-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://www.gov.pl/web/kas/przedluzenie-odroczenia-kar-za-bledy-w-stosowaniu-ksef-do-konca-2027-r",
     "source_checked_at": "2026-10-08",
     "r18": true
+  },
+  {
+    "country": "poland",
+    "name": "Poland",
+    "slug": "poland",
+    "scope": "e-invoicing",
+    "flow": "b2b",
+    "date": "2027-01-01",
+    "date_precision": "day",
+    "date_label": "1 January 2027",
+    "status": "announced",
+    "requirement": "einvoicing",
+    "jurisdiction_code": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://edicomgroup.com/blog/poland-will-make-b2b-electronic-invoicing-mandatory",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2026/05/02/poland-ksef-e-invoicing-mandate-a-comprehensive-guide",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://saregofinance.pl/insights/practical_ksef_checklist/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=860848167",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/658735775/Poland+2023+eInvoicing+Country+Sheet",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/04/29/ministry-of-finance-updates-obligatory-e-invoicing-regulations",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.krgroup.eu/mandatory-national-system-of-e-invoices-ksef-the-ministry-of-finance-published-new-draft-of-changes",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.taxually.com/blog/poland-to-adopt-mandatory-b2b-e-invoicing-in-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ksef.podatki.gov.pl/informacje-ogolne-ksef-20/zakres-obowiazkowego-ksef/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://ksef.podatki.gov.pl/informacje-ogolne-ksef-20/zakres-obowiazkowego-ksef/",
+    "source_checked_at": "2026-10-08",
+    "r18": false
   },
   {
     "country": "portugal",
@@ -1146,6 +1407,48 @@
         "tier": 3,
         "source_date": null,
         "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/956171304/20262025+Slovak+Republic+2025+eInvoicing+Country+Sheet",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108899/eInvoicing%2Bin%2BSlovakia",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/658735770/Slovak+Republic+2023+eInvoicing+Country+Sheet",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.finance.gov.sk/en/Default.aspx?CatID=405",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fiscal-requirements.com/news/5881-slovakia-confirms-full-technical-readiness-for-mandatory-e-invoicing-from-2027",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://docs.peppol.eu/tdd/sk/tdd-sk/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.financnasprava.sk/_img/pfsedit/Dokumenty_PFS/Podnikatelia/Dan_z_pridanej_hodnoty/efaktura/2026/2026.08.26_manual_efakturacia.pdf",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://www.financnasprava.sk/_img/pfsedit/Dokumenty_PFS/Podnikatelia/Dan_z_pridanej_hodnoty/efaktura/2026/2026.08.26_manual_efakturacia.pdf",
@@ -1180,6 +1483,48 @@
       },
       {
         "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/956171304/20262025+Slovak+Republic+2025+eInvoicing+Country+Sheet",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.financnasprava.sk/en/businesses/taxes-businesses/value-added-tax/e-invoicing",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108899/eInvoicing%2Bin%2BSlovakia",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/658735770/Slovak+Republic+2023+eInvoicing+Country+Sheet",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.finance.gov.sk/en/Default.aspx?CatID=405",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://efaktura.sk/en/slovak-e-invoicing",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fiscal-requirements.com/news/5442-slovak-financial-administration-clarifies-upcoming-2027-e-invoicing-rules",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.financnasprava.sk/_img/pfsedit/Dokumenty_PFS/Podnikatelia/Dan_z_pridanej_hodnoty/efaktura/2026/2026.08.26_manual_efakturacia.pdf",
         "tier": 1,
         "source_date": null,
         "checked_at": null
@@ -1244,6 +1589,42 @@
         "tier": 1,
         "source_date": null,
         "checked_at": null
+      },
+      {
+        "url": "https://tax.gov.ae/Datafolder/Files/Legislation/2025/Cabinet%20Decision%20No.%20106%20of%202025.pdf",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-the-issuance-of-cabinet-resolution-on-administrative-fines-related-to-electronic-invoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/content/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/taxes/Vat/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/issuance-of-amendments-to-federal-decree-law-on-tax-procedures-and-federal-decree-law-on-value-added-tax-to-support-the-einvoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
@@ -1269,28 +1650,46 @@
         "tier": 1,
         "source_date": null,
         "checked_at": null
+      },
+      {
+        "url": "https://tax.gov.ae/Datafolder/Files/Legislation/2025/Cabinet%20Decision%20No.%20106%20of%202025.pdf",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-the-issuance-of-cabinet-resolution-on-administrative-fines-related-to-electronic-invoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/content/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/taxes/Vat/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/issuance-of-amendments-to-federal-decree-law-on-tax-procedures-and-federal-decree-law-on-value-added-tax-to-support-the-einvoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
     "source_checked_at": "2026-10-08",
-    "r18": false
-  },
-  {
-    "country": "greece",
-    "name": "Greece",
-    "slug": "greece",
-    "scope": null,
-    "flow": null,
-    "date": "2027-01-31",
-    "date_precision": "day",
-    "date_label": "31 January 2027",
-    "status": "phasing",
-    "requirement": null,
-    "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
     "r18": false
   },
   {
@@ -1316,6 +1715,72 @@
       {
         "url": "https://zatca.gov.sa/ar/MediaCenter/News/Pages/Wave25-E-invoicing.aspx",
         "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://zatca.gov.sa/en/e-invoicing",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://zatca.gov.sa/en/E-Invoicing",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://zatca.gov.sa/en/E-Invoicing/Introduction/Guidelines/Pages/default.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2026/08/05/ksa-zatca-announces-e-invoicing-readiness-for-wave-25",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2026/08/11/briefing-document-saudi-arabia-fatoorah-e-invoicing-compliance",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/10/11/saudi-arabia-zatca-announces-24th-group-e-invoicing-integration-rules-by-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://invoiceq.com/en/zatca-updates/wave-23-integration/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.sowaanerp.sa/zatca-e-invoicing-phase-2",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://getswiftbill.app/en/blog/zatca-e-invoicing-guide/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://qeemahcloud.com/en/blog/complete-zatca-phase-2-einvoicing-requirements-guide/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.taxually.com/blog/how-vat-e-invoices-work-in-saudi-arabia",
+        "tier": 3,
         "source_date": null,
         "checked_at": null
       }
@@ -1367,6 +1832,36 @@
         "tier": 1,
         "source_date": null,
         "checked_at": "2026-10-08"
+      },
+      {
+        "url": "https://tax.gov.ae/Datafolder/Files/Legislation/2025/Cabinet%20Decision%20No.%20106%20of%202025.pdf",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-the-issuance-of-cabinet-resolution-on-administrative-fines-related-to-electronic-invoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/content/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/taxes/Vat/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/issuance-of-amendments-to-federal-decree-law-on-tax-procedures-and-federal-decree-law-on-value-added-tax-to-support-the-einvoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
@@ -1398,6 +1893,36 @@
         "tier": 1,
         "source_date": null,
         "checked_at": "2026-10-08"
+      },
+      {
+        "url": "https://tax.gov.ae/Datafolder/Files/Legislation/2025/Cabinet%20Decision%20No.%20106%20of%202025.pdf",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-the-issuance-of-cabinet-resolution-on-administrative-fines-related-to-electronic-invoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/content/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/taxes/Vat/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/issuance-of-amendments-to-federal-decree-law-on-tax-procedures-and-federal-decree-law-on-value-added-tax-to-support-the-einvoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
@@ -1563,6 +2088,54 @@
         "tier": 2,
         "source_date": null,
         "checked_at": null
+      },
+      {
+        "url": "https://finance.gov.mk/en-GB/odnosi-so-javnost/novosti/dimitrieska-kocoska-sistemot-e-faktura-seriozen-cekor-vo-borbata-so-sivata-ekonomija-i-reforma-vo-javnite-finansii",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://europe.thomsonreuters.com/uk/compliance/regulatory-updates/north-macedonia",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ujp.gov.mk/en/vodic/category/417",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fiscal-requirements.com/news/5887-north-macedonia-launches-the-third-phase-of-the-e-invoice-project",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fiscal-requirements.com/news/5535",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.loginsystems.biz/en/post/draft-law-e-invoicing-macedonia-2026-2028",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.mondaq.com/tax-authorities/1694966/north-macedonia-introduces-mandatory-e-invoicing-by-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/08/26/north-macedonia-mandates-e-invoicing-with-e-faktura-project-for-tax-compliance-by-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://ener.gov.mk/Default.aspx?item=pub_regulation&subitem=view_reg_detail&itemid=123632",
@@ -1581,11 +2154,54 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://tms.taxoman.gov.om/portal/new-e-services",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tms.taxoman.gov.om/portal/w/the-tax-authority-and-oman-telecommunications-company-omantel-support-the-digital-transformation-by-using-the-e-invoicing-system",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tms.taxoman.gov.om/portal/e-invoicing-manual-guide",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.omanobserver.om/article/1194374/business/economy/oman-sets-phased-mandatory-e-invoicing-regime",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://gulfnews.com/business/economy/oman-mandates-e-invoicing-for-vat-registered-businesses-from-april-2027-1.500635473",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://oerlive.com/banking-finance/heres-everything-you-need-to-know-about-e-invoicing-for-businesses-in-oman/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://goroute.ai/blog/oman-e-invoicing-mandate-2027/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://tms.taxoman.gov.om/portal/new-e-services",
     "source_checked_at": null,
-    "r18": true
+    "r18": false
   },
   {
     "country": "oman",
@@ -1599,65 +2215,54 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": false
-  },
-  {
-    "country": "nigeria",
-    "name": "Nigeria",
-    "slug": "nigeria",
-    "scope": "e-invoicing",
-    "flow": "b2b",
-    "date": "2027-07-01",
-    "date_precision": "day",
-    "date_label": "Go live 1 July 2027; enforcement January to March 2028 (earlier expectation was 1 January 2026 for small VAT-registered businesses)",
-    "status": "announced",
-    "requirement": "einvoicing",
-    "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://tms.taxoman.gov.om/portal/new-e-services",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tms.taxoman.gov.om/portal/w/the-tax-authority-and-oman-telecommunications-company-omantel-support-the-digital-transformation-by-using-the-e-invoicing-system",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tms.taxoman.gov.om/portal/e-invoicing-manual-guide",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.omanobserver.om/article/1194374/business/economy/oman-sets-phased-mandatory-e-invoicing-regime",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://gulfnews.com/business/economy/oman-mandates-e-invoicing-for-vat-registered-businesses-from-april-2027-1.500635473",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://oerlive.com/banking-finance/heres-everything-you-need-to-know-about-e-invoicing-for-businesses-in-oman/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://goroute.ai/blog/oman-e-invoicing-mandate-2027/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://tms.taxoman.gov.om/portal/new-e-services",
     "source_checked_at": null,
     "r18": true
-  },
-  {
-    "country": "nigeria",
-    "name": "Nigeria",
-    "slug": "nigeria",
-    "scope": "digital-reporting",
-    "flow": "b2c",
-    "date": "2027-07-01",
-    "date_precision": "day",
-    "date_label": "Aligned to emerging taxpayer go live 1 July 2027",
-    "status": "announced",
-    "requirement": "ereporting",
-    "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": false
-  },
-  {
-    "country": "nigeria",
-    "name": "Nigeria",
-    "slug": "nigeria",
-    "scope": "e-invoicing",
-    "flow": "b2g",
-    "date": "2027-07-01",
-    "date_precision": "day",
-    "date_label": "Go live 1 July 2027; enforcement January to March 2028",
-    "status": "announced",
-    "requirement": "einvoicing",
-    "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": false
   },
   {
     "country": "north-macedonia",
@@ -1684,6 +2289,54 @@
         "tier": 2,
         "source_date": null,
         "checked_at": null
+      },
+      {
+        "url": "https://finance.gov.mk/en-GB/odnosi-so-javnost/novosti/dimitrieska-kocoska-sistemot-e-faktura-seriozen-cekor-vo-borbata-so-sivata-ekonomija-i-reforma-vo-javnite-finansii",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://europe.thomsonreuters.com/uk/compliance/regulatory-updates/north-macedonia",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ujp.gov.mk/en/vodic/category/417",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fiscal-requirements.com/news/5887-north-macedonia-launches-the-third-phase-of-the-e-invoice-project",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fiscal-requirements.com/news/5535",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.loginsystems.biz/en/post/draft-law-e-invoicing-macedonia-2026-2028",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.mondaq.com/tax-authorities/1694966/north-macedonia-introduces-mandatory-e-invoicing-by-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/08/26/north-macedonia-mandates-e-invoicing-with-e-faktura-project-for-tax-compliance-by-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://ener.gov.mk/Default.aspx?item=pub_regulation&subitem=view_reg_detail&itemid=123632",
@@ -1709,6 +2362,42 @@
         "tier": 1,
         "source_date": null,
         "checked_at": null
+      },
+      {
+        "url": "https://tax.gov.ae/Datafolder/Files/Legislation/2025/Cabinet%20Decision%20No.%20106%20of%202025.pdf",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-the-issuance-of-cabinet-resolution-on-administrative-fines-related-to-electronic-invoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/content/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/taxes/Vat/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/issuance-of-amendments-to-federal-decree-law-on-tax-procedures-and-federal-decree-law-on-value-added-tax-to-support-the-einvoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
@@ -1731,6 +2420,42 @@
     "sources": [
       {
         "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-targeted-amendments-to-einvoicing-system-decisions",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tax.gov.ae/Datafolder/Files/Legislation/2025/Cabinet%20Decision%20No.%20106%20of%202025.pdf",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-the-issuance-of-cabinet-resolution-on-administrative-fines-related-to-electronic-invoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/content/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/taxes/Vat/uae.einvoicing.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://mof.gov.ae/en/news/issuance-of-amendments-to-federal-decree-law-on-tax-procedures-and-federal-decree-law-on-value-added-tax-to-support-the-einvoicing-system/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
         "tier": 1,
         "source_date": null,
         "checked_at": null
@@ -1765,29 +2490,53 @@
         "tier": 1,
         "source_date": null,
         "checked_at": "2026-10-08"
+      },
+      {
+        "url": "https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/octubre/7/solucion-publica-facturacion-electronica.html",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://sede.agenciatributaria.gob.es/Sede/en_gb/iva/facturacion-registro.html",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://sede.agenciatributaria.gob.es/Sede/en_gb/iva/facturacion-registro/facturacion-iva/contenido-facturas.html",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.forvismazars.com/es/en/insights/alerts/tax-alerts/rd-238-2026-electronic-invoicing",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.cuatrecasas.com/en/spain/tax/art/regulation-mandatory-einvoicing-b2b-transactions",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/x/bwCSN",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=749043749",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20587",
     "source_checked_at": "2026-10-08",
     "r18": true
-  },
-  {
-    "country": "bosnia-and-herzegovina",
-    "name": "Bosnia & Herzegovina",
-    "slug": "bosnia-and-herzegovina",
-    "scope": "e-invoicing",
-    "flow": "b2b",
-    "date": "2027-08-31",
-    "date_precision": "day",
-    "date_label": "no later than 31 August 2027 (after bylaws and infrastructure)",
-    "status": "announced",
-    "requirement": "einvoicing",
-    "jurisdiction_code": "BA-BIH",
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": false
   },
   {
     "country": "bosnia-and-herzegovina",
@@ -1845,42 +2594,6 @@
     "r18": true
   },
   {
-    "country": "bosnia-and-herzegovina",
-    "name": "Bosnia & Herzegovina",
-    "slug": "bosnia-and-herzegovina",
-    "scope": "digital-reporting",
-    "flow": "b2c",
-    "date": "2027-08-31",
-    "date_precision": "day",
-    "date_label": "no later than 31 August 2027 (after bylaws and infrastructure)",
-    "status": "announced",
-    "requirement": "ereporting",
-    "jurisdiction_code": "BA-BIH",
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": false
-  },
-  {
-    "country": "bosnia-and-herzegovina",
-    "name": "Bosnia & Herzegovina",
-    "slug": "bosnia-and-herzegovina",
-    "scope": "e-invoicing",
-    "flow": "b2g",
-    "date": "2027-08-31",
-    "date_precision": "day",
-    "date_label": "no later than 31 August 2027 (after bylaws and infrastructure)",
-    "status": "announced",
-    "requirement": "einvoicing",
-    "jurisdiction_code": "BA-BIH",
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": false
-  },
-  {
     "country": "france",
     "name": "France",
     "slug": "france",
@@ -1892,9 +2605,34 @@
     "status": "phasing",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://www.impots.gouv.fr/internationalenbusiness/i-want-understand-electronic-invoicing",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.impots.gouv.fr/internationalenbusiness/moving-electronic-invoicing-learn-more",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://entreprendre.service-public.gouv.fr/actualites/A17853?lang=en",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=861175829",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://www.impots.gouv.fr/internationalenbusiness/i-want-understand-electronic-invoicing",
     "source_checked_at": null,
     "r18": true
   },
@@ -1910,9 +2648,46 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://www.99avocats.com/en/publications/the-dematerialisation-of-monaco-tax-invoices",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://bss.mc/blog/e-invoicing-monaco-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://dddinvoices.com/learn/e-invoicing-monaco",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://vatit.com/country-guide/monaco/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://monservicepublic.gouv.mc/en/directory-of-government-departments/ministry-of-finance-and-economy/department-of-tax-services",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://electronicinvoicing.global/country/e-invoicing-requirements-monaco/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://www.99avocats.com/en/publications/the-dematerialisation-of-monaco-tax-invoices",
     "source_checked_at": null,
     "r18": true
   },
@@ -1928,9 +2703,46 @@
     "status": "announced",
     "requirement": "ereporting",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://www.99avocats.com/en/publications/the-dematerialisation-of-monaco-tax-invoices",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://bss.mc/blog/e-invoicing-monaco-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://dddinvoices.com/learn/e-invoicing-monaco",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://vatit.com/country-guide/monaco/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://monservicepublic.gouv.mc/en/directory-of-government-departments/ministry-of-finance-and-economy/department-of-tax-services",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://electronicinvoicing.global/country/e-invoicing-requirements-monaco/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://www.99avocats.com/en/publications/the-dematerialisation-of-monaco-tax-invoices",
     "source_checked_at": null,
     "r18": false
   },
@@ -1959,6 +2771,54 @@
         "tier": 2,
         "source_date": null,
         "checked_at": null
+      },
+      {
+        "url": "https://finance.gov.mk/en-GB/odnosi-so-javnost/novosti/dimitrieska-kocoska-sistemot-e-faktura-seriozen-cekor-vo-borbata-so-sivata-ekonomija-i-reforma-vo-javnite-finansii",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://europe.thomsonreuters.com/uk/compliance/regulatory-updates/north-macedonia",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ujp.gov.mk/en/vodic/category/417",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fiscal-requirements.com/news/5887-north-macedonia-launches-the-third-phase-of-the-e-invoice-project",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fiscal-requirements.com/news/5535",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.loginsystems.biz/en/post/draft-law-e-invoicing-macedonia-2026-2028",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.mondaq.com/tax-authorities/1694966/north-macedonia-introduces-mandatory-e-invoicing-by-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/08/26/north-macedonia-mandates-e-invoicing-with-e-faktura-project-for-tax-compliance-by-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://ener.gov.mk/Default.aspx?item=pub_regulation&subitem=view_reg_detail&itemid=123632",
@@ -1977,9 +2837,52 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://tms.taxoman.gov.om/portal/new-e-services",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tms.taxoman.gov.om/portal/w/the-tax-authority-and-oman-telecommunications-company-omantel-support-the-digital-transformation-by-using-the-e-invoicing-system",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tms.taxoman.gov.om/portal/e-invoicing-manual-guide",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.omanobserver.om/article/1194374/business/economy/oman-sets-phased-mandatory-e-invoicing-regime",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://gulfnews.com/business/economy/oman-mandates-e-invoicing-for-vat-registered-businesses-from-april-2027-1.500635473",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://oerlive.com/banking-finance/heres-everything-you-need-to-know-about-e-invoicing-for-businesses-in-oman/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://goroute.ai/blog/oman-e-invoicing-mandate-2027/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://tms.taxoman.gov.om/portal/new-e-services",
     "source_checked_at": null,
     "r18": false
   },
@@ -1995,9 +2898,52 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://tms.taxoman.gov.om/portal/new-e-services",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tms.taxoman.gov.om/portal/w/the-tax-authority-and-oman-telecommunications-company-omantel-support-the-digital-transformation-by-using-the-e-invoicing-system",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://tms.taxoman.gov.om/portal/e-invoicing-manual-guide",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.omanobserver.om/article/1194374/business/economy/oman-sets-phased-mandatory-e-invoicing-regime",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://gulfnews.com/business/economy/oman-mandates-e-invoicing-for-vat-registered-businesses-from-april-2027-1.500635473",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://oerlive.com/banking-finance/heres-everything-you-need-to-know-about-e-invoicing-for-businesses-in-oman/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://goroute.ai/blog/oman-e-invoicing-mandate-2027/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://tms.taxoman.gov.om/portal/new-e-services",
     "source_checked_at": null,
     "r18": false
   },
@@ -2016,14 +2962,26 @@
     "trust_label": "Official",
     "sources": [
       {
-        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-targeted-amendments-to-einvoicing-system-decisions",
+        "url": "https://www.mondaq.com/tax-authorities/1686284/ministerial-decision-no-243-and-244-of-2025-electronic-invoicing-system-implementation-framework",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://alsuwaidi.ae/uae-ministry-of-finance-rolls-out-e-invoicing-system-what-businesses-and-practitioners-need-to-know/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.tax.gov.ae/en/content/uae.einvoicing.aspx",
         "tier": 1,
         "source_date": null,
         "checked_at": null
       }
     ],
-    "source_url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
-    "source_checked_at": "2026-10-08",
+    "source_url": "https://www.mondaq.com/tax-authorities/1686284/ministerial-decision-no-243-and-244-of-2025-electronic-invoicing-system-implementation-framework",
+    "source_checked_at": null,
     "r18": false
   },
   {
@@ -2072,6 +3030,30 @@
       },
       {
         "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-7295",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20587",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://sede.agenciatributaria.gob.es/Sede/en_gb/iva/facturacion-registro/facturacion-iva/contenido-facturas.html",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/x/bwCSN",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=749043749",
         "tier": 1,
         "source_date": null,
         "checked_at": null
@@ -2292,9 +3274,40 @@
     "status": "proposed",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/718735693/2024+Estonia+2024+eInvoicing+Country+Sheet",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=841678922",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=879493142",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.emta.ee/en/news/now-you-can-order-e-invoice-land-tax-payment",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.emta.ee/en/business-client/taxes-and-payment/value-added-tax/vat-accounting-and-invoices/services-are-subject-tax-rate-0",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/718735693/2024+Estonia+2024+eInvoicing+Country+Sheet",
     "source_checked_at": null,
     "r18": false
   },
@@ -2353,24 +3366,6 @@
     "r18": false
   },
   {
-    "country": "philippines",
-    "name": "Philippines",
-    "slug": "philippines",
-    "scope": "e-invoicing",
-    "flow": "b2b",
-    "date": "2027-01-01",
-    "date_precision": "year",
-    "date_label": "expected later in 2027, BIR readiness dependent",
-    "status": "announced",
-    "requirement": "einvoicing",
-    "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": false
-  },
-  {
     "country": "serbia",
     "name": "Serbia",
     "slug": "serbia",
@@ -2418,9 +3413,64 @@
     "status": "proposed",
     "requirement": "ereporting",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/x/HAPFJw",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://finances.belgium.be/fr/node/17970",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://peppol.org/learn-more/country-profiles/belgium/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://einvoice.belgium.be/en/taxonomy/term/35",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://einvoice.belgium.be/en/taxonomy/term/36",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://efactuur.belgium.be/nl/taxonomy/term/22",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://economie.wallonie.be/en/home/actualites/actualites/facturation-electronique-obligatoire-en-belgique-a-partir-du-1er-janvier-2026.html",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://invoice-portal.de/electronic-invoice-belgium",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://news.pwc.be/category/customs-vat/",
+        "tier": 2,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://ec.europa.eu/digital-building-blocks/sites/x/HAPFJw",
     "source_checked_at": null,
     "r18": false
   },
@@ -2436,9 +3486,40 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=878215225",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=824770747",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Steuerarten/Umsatzsteuer/Umsatzsteuer-Anwendungserlass/2025-10-15-einfuehrung-obligatorische-e-rechnung.html",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://e-rechnung-bund.de/en/e-invoicing/key-points-on-e-invoicing",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://e-rechnung-bund.de/en/d-easi-project-for-automated-incoming-e-invoice-processing",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=878215225",
     "source_checked_at": null,
     "r18": false
   },
@@ -2454,9 +3535,70 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=196575919",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=789217284",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=877330481",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vid.gov.lv/en/electronic-declaration-system",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/06/10/latvia-postpones-b2b-e-invoicing-mandate-to-2028-encourages-voluntary-adoption-from-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/10/27/briefing-document-mandatory-e-invoicing-and-e-reporting-in-latvia-as-of-jan-1-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://numbero.app/en/blog/structured-e-invoices-in-latvia-what-regulation-no-749-requires-and-how-companies/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://rtcsuite.com/latvias-e-invoicing-mandate-key-milestones-and-implementation-timeline/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://rtcsuite.com/e-invoicing-in-latvia/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://maventa.com/blog/guide-to-e-invoicing-requirements-in-latvia?hs_amp=true",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=196575919",
     "source_checked_at": null,
     "r18": true
   },
@@ -2472,9 +3614,82 @@
     "status": "announced",
     "requirement": "ereporting",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=196575919",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=789217284",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=877330481",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vid.gov.lv/en/electronic-declaration-system",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/06/10/latvia-postpones-b2b-e-invoicing-mandate-to-2028-encourages-voluntary-adoption-from-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/10/27/briefing-document-mandatory-e-invoicing-and-e-reporting-in-latvia-as-of-jan-1-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://numbero.app/en/blog/structured-e-invoices-in-latvia-what-regulation-no-749-requires-and-how-companies/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://rtcsuite.com/latvias-e-invoicing-mandate-key-milestones-and-implementation-timeline/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://rtcsuite.com/e-invoicing-in-latvia/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://maventa.com/blog/guide-to-e-invoicing-requirements-in-latvia?hs_amp=true",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://snitechnology.net/latvia-e-invoicing",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.flick.network/en-lv/e-invoicing-in-latvia",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=196575919",
     "source_checked_at": null,
     "r18": false
   },
@@ -2501,6 +3716,54 @@
       {
         "url": "https://kpmg.com/mk/en/insights/2026/03/draft-law-on-electronic-invoicing-published-in-north-macedonia.html",
         "tier": 2,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://finance.gov.mk/en-GB/odnosi-so-javnost/novosti/dimitrieska-kocoska-sistemot-e-faktura-seriozen-cekor-vo-borbata-so-sivata-ekonomija-i-reforma-vo-javnite-finansii",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://europe.thomsonreuters.com/uk/compliance/regulatory-updates/north-macedonia",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ujp.gov.mk/en/vodic/category/417",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fiscal-requirements.com/news/5887-north-macedonia-launches-the-third-phase-of-the-e-invoice-project",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fiscal-requirements.com/news/5535",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.loginsystems.biz/en/post/draft-law-e-invoicing-macedonia-2026-2028",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.mondaq.com/tax-authorities/1694966/north-macedonia-introduces-mandatory-e-invoicing-by-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/08/26/north-macedonia-mandates-e-invoicing-with-e-faktura-project-for-tax-compliance-by-2026",
+        "tier": 3,
         "source_date": null,
         "checked_at": null
       }
@@ -2534,6 +3797,54 @@
         "tier": 1,
         "source_date": null,
         "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=860848167",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/658735775/Poland+2023+eInvoicing+Country+Sheet",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/04/29/ministry-of-finance-updates-obligatory-e-invoicing-regulations",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2026/05/02/poland-ksef-e-invoicing-mandate-a-comprehensive-guide",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://edicomgroup.com/blog/poland-will-make-b2b-electronic-invoicing-mandatory",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://saregofinance.pl/insights/practical_ksef_checklist/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.krgroup.eu/mandatory-national-system-of-e-invoices-ksef-the-ministry-of-finance-published-new-draft-of-changes",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.taxually.com/blog/poland-to-adopt-mandatory-b2b-e-invoicing-in-2026",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://www.gov.pl/web/kas/przedluzenie-odroczenia-kar-za-bledy-w-stosowaniu-ksef-do-konca-2027-r",
@@ -2552,9 +3863,76 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/881983598/2025+Slovenia+2025+eInvoicing+Country+Sheet",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/display/DIGITAL/eInvoicing+in+Slovenia",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.gov.si/en/topics/exchange-of-e-invoices-with-budget-users",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.gov.si/en/registries/services/e-invoicing-of-budget-users",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fu.gov.si/en/business_events_businesses/edavki_electronic_tax_management_system",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fu.gov.si/en/supervision/areas_of_work/fiscal_verification_of_invoices_and_pre_numbered_receipt_book/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.bdo.global/en-gb/insights/tax/indirect-tax/slovenia-e-invoicing-to-be-mandatory-for-b2b-transactions-starting-in-2028",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2026/09/09/briefing-document-e-invoicing-and-e-reporting-in-slovenia",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.gov.si/novice/2025-10-23-drzavni-zbor-sprejel-zakon-o-izmenjavi-elektronskih-racunov-in-drugih-elektronskih-dokumentov/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2025/11/18/slovenia-to-require-b2b-e-invoicing-for-all-businesses-starting-january-2028",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://rtcsuite.com/e-invoicing-in-slovenia",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/881983598/2025+Slovenia+2025+eInvoicing+Country+Sheet",
     "source_checked_at": null,
     "r18": true
   },
@@ -2570,9 +3948,40 @@
     "status": "announced",
     "requirement": "ereporting",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.iras.gov.sg/news-events/newsroom/iras-annual-report-fy2024-25",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.iras.gov.sg/who-we-are/what-we-do/annual-reports-and-publications/taxbytes-iras/gst/invoicenow-fair-2026-opening-keynote-speech-iras-deputy-commissioner-dennis-lui",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "http://iras.gov.sg/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.mof.gov.sg/news-resources/newsroom/electronic-invoices-for-transactions-with-government-from-1-november-2008",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst",
     "source_checked_at": null,
     "r18": false
   },
@@ -2625,6 +4034,30 @@
         "tier": 1,
         "source_date": null,
         "checked_at": null
+      },
+      {
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20587",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://sede.agenciatributaria.gob.es/Sede/en_gb/iva/facturacion-registro/facturacion-iva/contenido-facturas.html",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/x/bwCSN",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=749043749",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20587",
@@ -2643,9 +4076,46 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://www.revenue.ie/en/vat/vida-vat-modernisation/what-is-vat-modernisation.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.revenue.ie/en/vat/vida-vat-modernisation/large-corporates-vat-modernisation.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.revenue.ie/en/corporate/press-office/press-releases/2026/pr-021026-phase-one-vat-modernisation.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2026/07/31/ireland-phases-in-mandatory-b2b-e-invoicing-and-real-time-vat-reporting-by-2030/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108889/eInvoicing+in+Ireland",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.basware.com/en/compliance-map/ireland",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://www.revenue.ie/en/vat/vida-vat-modernisation/what-is-vat-modernisation.aspx",
     "source_checked_at": null,
     "r18": true
   },
@@ -2661,9 +4131,76 @@
     "status": "proposed",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108892/eInvoicing+in+Lithuania",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=877723659",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://arvydev.com/blog/lithuania-e-invoicing-mandate-business-central/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ezura.lt/en/blog/e-faktura-ar-privaloma-lietuvoje",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://get-flowie.com/e-invoicing/lithuania",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-lithuania/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.banqup.com/resources/compliance-pulse/lithuania",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.spscommerce.com/community/articles/e-invoicing-in-lithuania-compliance-with-lithuanian-regulations",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.storecove.com/blog/en/e-invoicing-in-lithuania/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.unimaze.com/e-invoicing-in-lithuania/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vmi.lt/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108892/eInvoicing+in+Lithuania",
     "source_checked_at": null,
     "r18": false
   },
@@ -2733,11 +4270,66 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://www.gov.uk/government/news/chancellor-unveils-package-to-deliver-on-promises-of-new-government",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/electronic-invoicing-sme-usage-and-attitudes",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.icas.com/news-insights-events/news/tax/autumn-budget-2025-e-invoicing-will-go-ahead-from-2029",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.icas.com/news-insights-events/news/tax/icas-response-to-the-consultation-on-encouraging-e-invoicing",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://peppol.org/uk-einvoicing-mandate-expected-in-2029-2/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.ukfinance.org.uk/policy-and-guidance/consultation-responses/electronic-invoicing-promoting-e-invoicing-across-uk",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2026/06/25/briefing-document-e-invoicing-e-reporting-in-the-united-kingdom-scope-and-implementation-overview",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://stripe.com/en-de/resources/more/uk-e-invoicing-mandate",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.thp.co.uk/uk-e-invoicing-mandate",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://www.gov.uk/government/news/chancellor-unveils-package-to-deliver-on-promises-of-new-government",
     "source_checked_at": null,
-    "r18": true
+    "r18": false
   },
   {
     "country": "united-kingdom",
@@ -2751,11 +4343,66 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://www.gov.uk/government/news/chancellor-unveils-package-to-deliver-on-promises-of-new-government",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.gov.uk/government/publications/electronic-invoicing-sme-usage-and-attitudes",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.icas.com/news-insights-events/news/tax/autumn-budget-2025-e-invoicing-will-go-ahead-from-2029",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.icas.com/news-insights-events/news/tax/icas-response-to-the-consultation-on-encouraging-e-invoicing",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://peppol.org/uk-einvoicing-mandate-expected-in-2029-2/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.ukfinance.org.uk/policy-and-guidance/consultation-responses/electronic-invoicing-promoting-e-invoicing-across-uk",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2026/06/25/briefing-document-e-invoicing-e-reporting-in-the-united-kingdom-scope-and-implementation-overview",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://stripe.com/en-de/resources/more/uk-e-invoicing-mandate",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.thp.co.uk/uk-e-invoicing-mandate",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://www.gov.uk/government/news/chancellor-unveils-package-to-deliver-on-promises-of-new-government",
     "source_checked_at": null,
-    "r18": false
+    "r18": true
   },
   {
     "country": "spain",
@@ -2779,6 +4426,48 @@
       },
       {
         "url": "https://sede.agenciatributaria.gob.es/Sede/todas-noticias/2026/octubre/7/solucion-publica-facturacion-electronica.html",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20587",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://sede.agenciatributaria.gob.es/Sede/en_gb/iva/facturacion-registro.html",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://sede.agenciatributaria.gob.es/Sede/en_gb/iva/facturacion-registro/facturacion-iva/contenido-facturas.html",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.forvismazars.com/es/en/insights/alerts/tax-alerts/rd-238-2026-electronic-invoicing",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.cuatrecasas.com/en/spain/tax/art/regulation-mandatory-einvoicing-b2b-transactions",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/x/bwCSN",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=749043749",
         "tier": 1,
         "source_date": null,
         "checked_at": null
@@ -2822,6 +4511,67 @@
     "sources": [],
     "source_url": null,
     "source_checked_at": null,
+    "r18": false
+  },
+  {
+    "country": "norway",
+    "name": "Norway",
+    "slug": "norway",
+    "scope": "e-invoicing",
+    "flow": "b2b",
+    "date": "2030-01-01",
+    "date_precision": "day",
+    "date_label": "1 January 2030",
+    "status": "announced",
+    "requirement": "einvoicing",
+    "jurisdiction_code": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://www.regjeringen.no/no/aktuelt/nye-lovregler-om-e-fakturering-i-naringslivet-og-enkelte-andre-lovendringer-pa-finansmarkedsomradet-settes-i-kraft/id3166726/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://lovdata.no/nav/forskrift/2026-09-25-1913",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": "2026-10-08"
+      },
+      {
+        "url": "https://www.theinvoicinghub.com/norways-e-invoicing-mandate-officially-approved/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.drdynamics.co.uk/blog/e-invoicing-norway-what-cfos-and-cios-need-to-know",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.comarch.com/trade-and-services/data-management/e-invoicing/e-invoicing-in-norway/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.skatteetaten.no/en/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108905/eInvoicing+in+Norway",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://lovdata.no/nav/forskrift/2026-09-25-1913",
+    "source_checked_at": "2026-10-08",
     "r18": false
   },
   {
@@ -2994,9 +4744,52 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=879493139",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=848625666",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=757334250",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.valtiokonttori.fi/en/services/government-e-invoices/invoicing-the-state",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.valtiokonttori.fi/en/e-invoicing-fast-and-safe",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vero.fi/en/individuals/payments/paying-taxes/einvoice",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.forvismazars.com/fi/en/insights/insights/e-voicing-in-finland-under-vida",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=879493139",
     "source_checked_at": null,
     "r18": true
   },
@@ -3012,9 +4805,52 @@
     "status": "announced",
     "requirement": "ereporting",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=879493139",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=848625666",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=757334250",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.valtiokonttori.fi/en/services/government-e-invoices/invoicing-the-state",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.valtiokonttori.fi/en/e-invoicing-fast-and-safe",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vero.fi/en/individuals/payments/paying-taxes/einvoice",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.forvismazars.com/fi/en/insights/insights/e-voicing-in-finland-under-vida",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=879493139",
     "source_checked_at": null,
     "r18": false
   },
@@ -3055,6 +4891,42 @@
         "tier": 1,
         "source_date": null,
         "checked_at": "2026-10-08"
+      },
+      {
+        "url": "https://www.revenue.ie/en/vat/vida-vat-modernisation/what-is-vat-modernisation.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.revenue.ie/en/vat/vida-vat-modernisation/large-corporates-vat-modernisation.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.revenue.ie/en/corporate/press-office/press-releases/2026/pr-021026-phase-one-vat-modernisation.aspx",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.vatupdate.com/2026/07/31/ireland-phases-in-mandatory-b2b-e-invoicing-and-real-time-vat-reporting-by-2030/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108889/eInvoicing+in+Ireland",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.basware.com/en/compliance-map/ireland",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://www.revenue.ie/en/vat/vida-vat-modernisation/vat-modernisation-timeline.aspx",
@@ -3080,6 +4952,30 @@
         "tier": 1,
         "source_date": null,
         "checked_at": "2026-10-08"
+      },
+      {
+        "url": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-businesses/invoicing_en?",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://dddinvoices.com/learn/real-time-reporting-europe",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.cc.lu/dossiers-thematiques/e-invoicing/faq",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.cc.lu/dossiers-thematiques/e-invoicing",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://eur-lex.europa.eu/eli/dir/2025/516/oj",
@@ -3105,6 +5001,31 @@
     "r18": false
   },
   {
+    "country": "netherlands",
+    "name": "Netherlands",
+    "slug": "netherlands",
+    "scope": "e-invoicing",
+    "flow": "b2b",
+    "date": "2030-07-01",
+    "date_precision": "day",
+    "date_label": "1 July 2030 (cabinet decision 11 September 2026)",
+    "status": "announced",
+    "requirement": "einvoicing",
+    "jurisdiction_code": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/09/11/kabinet-kiest-voor-invoering-e-facturatie-en-rapportage-voor-bedrijven",
+        "tier": 1,
+        "source_date": "2026-09-11",
+        "checked_at": "2026-10-08"
+      }
+    ],
+    "source_url": "https://www.rijksoverheid.nl/actueel/nieuws/2026/09/11/kabinet-kiest-voor-invoering-e-facturatie-en-rapportage-voor-bedrijven",
+    "source_checked_at": "2026-10-08",
+    "r18": true
+  },
+  {
     "country": "slovakia",
     "name": "Slovakia",
     "slug": "slovakia",
@@ -3113,14 +5034,14 @@
     "date": "2030-07-01",
     "date_precision": "day",
     "date_label": "1 July 2030",
-    "status": "proposed",
+    "status": "announced",
     "requirement": "ereporting",
     "jurisdiction_code": null,
     "trust_label": "Official",
     "sources": [
       {
-        "url": "https://efaktura.sk/en/slovak-e-invoicing",
-        "tier": 3,
+        "url": "https://www.financnasprava.sk/en/businesses/taxes-businesses/value-added-tax/e-invoicing",
+        "tier": 1,
         "source_date": null,
         "checked_at": null
       },
@@ -3129,10 +5050,52 @@
         "tier": 1,
         "source_date": null,
         "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/DIGITAL/pages/467108899/eInvoicing%2Bin%2BSlovakia",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/658735770/Slovak+Republic+2023+eInvoicing+Country+Sheet",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.finance.gov.sk/en/Default.aspx?CatID=405",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://efaktura.sk/en/slovak-e-invoicing",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fiscal-requirements.com/news/5442-slovak-financial-administration-clarifies-upcoming-2027-e-invoicing-rules",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.fiscal-requirements.com/news/5881-slovakia-confirms-full-technical-readiness-for-mandatory-e-invoicing-from-2027",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://docs.peppol.eu/tdd/sk/tdd-sk/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
       }
     ],
-    "source_url": "https://www.nrsr.sk/web/Dynamic/DocumentPreview.aspx?DocID=596158",
-    "source_checked_at": "2026-10-08",
+    "source_url": "https://www.financnasprava.sk/en/businesses/taxes-businesses/value-added-tax/e-invoicing",
+    "source_checked_at": null,
     "r18": false
   },
   {
@@ -3147,9 +5110,52 @@
     "status": "announced",
     "requirement": "einvoicing",
     "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
+    "trust_label": "Official",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/digital-building-blocks/sites/x/HAPFJw",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://finances.belgium.be/fr/node/17970",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://peppol.org/learn-more/country-profiles/belgium/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://einvoice.belgium.be/en/taxonomy/term/35",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://einvoice.belgium.be/en/taxonomy/term/36",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://efactuur.belgium.be/nl/taxonomy/term/22",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://economie.wallonie.be/en/home/actualites/actualites/facturation-electronique-obligatoire-en-belgique-a-partir-du-1er-janvier-2026.html",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      }
+    ],
+    "source_url": "https://ec.europa.eu/digital-building-blocks/sites/x/HAPFJw",
     "source_checked_at": null,
     "r18": false
   },
@@ -3232,6 +5238,42 @@
         "tier": 1,
         "source_date": null,
         "checked_at": "2026-10-08"
+      },
+      {
+        "url": "https://vatmodernisation.co.za/vat-modernisation-overview/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.pikon.com/en/blog/sars-e-invoicing-south-africa-regulations-compliance-outlook/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.comarch.com/trade-and-services/data-management/legal-regulation-changes/south-africa-transitions-to-mandatory-e-invoicing-and-real-time-vat-reporting/",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://edicomgroup.com/blog/electronic-invoicing-tax-reporting-in-south-africa",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.basware.com/en/compliance-map/south-africa",
+        "tier": 3,
+        "source_date": null,
+        "checked_at": null
+      },
+      {
+        "url": "https://www.sars.gov.za/",
+        "tier": 1,
+        "source_date": null,
+        "checked_at": null
       }
     ],
     "source_url": "https://www.sars.gov.za/media-release/sars-invites-public-input-on-a-new-digital-vat-model-to-modernise-vat-administration/",

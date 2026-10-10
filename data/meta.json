@@ -2,11 +2,11 @@
   "total": 241,
   "counts": {
     "proposed": 115,
-    "announced": 27,
     "live": 87,
+    "announced": 27,
     "phasing": 12
   },
-  "updated": "2026-10-08T16:40:37.212Z",
-  "exported_at": "2026-10-08T16:46:03.378Z",
+  "updated": "2026-10-10T04:00:03.055Z",
+  "exported_at": "2026-10-10T04:00:03.690Z",
   "source": "https://e-invoicing.org"
 }
