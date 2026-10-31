@@ -54,128 +54,6 @@
     "r18": false
   },
   {
-    "country": "uae",
-    "name": "United Arab Emirates",
-    "slug": "uae",
-    "scope": "other",
-    "flow": "b2b",
-    "date": "2026-10-30",
-    "date_precision": "day",
-    "date_label": "ASP appointment deadline: 30 October 2026",
-    "status": "announced",
-    "requirement": "other",
-    "jurisdiction_code": null,
-    "trust_label": "Official",
-    "sources": [
-      {
-        "url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://tax.gov.ae/Datafolder/Files/Legislation/2025/Cabinet%20Decision%20No.%20106%20of%202025.pdf",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-the-issuance-of-cabinet-resolution-on-administrative-fines-related-to-electronic-invoicing-system/",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://www.tax.gov.ae/en/content/uae.einvoicing.aspx",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://www.tax.gov.ae/en/taxes/Vat/uae.einvoicing.aspx",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://mof.gov.ae/en/news/issuance-of-amendments-to-federal-decree-law-on-tax-procedures-and-federal-decree-law-on-value-added-tax-to-support-the-einvoicing-system/",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-targeted-amendments-to-einvoicing-system-decisions",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      }
-    ],
-    "source_url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-targeted-amendments-to-einvoicing-system-decisions",
-    "source_checked_at": "2026-10-08",
-    "r18": true
-  },
-  {
-    "country": "uae",
-    "name": "United Arab Emirates",
-    "slug": "uae",
-    "scope": "other",
-    "flow": "b2g",
-    "date": "2026-10-30",
-    "date_precision": "day",
-    "date_label": "ASP appointment deadline: 30 October 2026",
-    "status": "announced",
-    "requirement": "other",
-    "jurisdiction_code": null,
-    "trust_label": "Official",
-    "sources": [
-      {
-        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-targeted-amendments-to-einvoicing-system-decisions",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": "2026-10-08"
-      },
-      {
-        "url": "https://tax.gov.ae/Datafolder/Files/Legislation/2025/Cabinet%20Decision%20No.%20106%20of%202025.pdf",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://mof.gov.ae/en/news/ministry-of-finance-announces-the-issuance-of-cabinet-resolution-on-administrative-fines-related-to-electronic-invoicing-system/",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://www.tax.gov.ae/en/content/uae.einvoicing.aspx",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://www.tax.gov.ae/en/taxes/Vat/uae.einvoicing.aspx",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://mof.gov.ae/en/news/issuance-of-amendments-to-federal-decree-law-on-tax-procedures-and-federal-decree-law-on-value-added-tax-to-support-the-einvoicing-system/",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      }
-    ],
-    "source_url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
-    "source_checked_at": "2026-10-08",
-    "r18": false
-  },
-  {
     "country": "costa-rica",
     "name": "Costa Rica",
     "slug": "costa-rica",
@@ -1606,7 +1484,7 @@
     ],
     "source_url": "https://tax.gov.ae/Datafolder/Files/Pdf/2026/legislation/Ministerial%20Decision%20No.%20244%20of%202025%20on%20The%20Implementation%20of%20the%20Electronic%20Invoicing%20System%20-%20publishing%20-%2007%202026.pdf",
     "source_checked_at": "2026-10-08",
-    "r18": false
+    "r18": true
   },
   {
     "country": "uae",
