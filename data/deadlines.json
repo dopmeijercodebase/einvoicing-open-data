@@ -1,59 +1,5 @@
 [
   {
-    "country": "bolivia",
-    "name": "Bolivia",
-    "slug": "bolivia",
-    "scope": null,
-    "flow": null,
-    "date": "2026-10-01",
-    "date_precision": "month",
-    "date_label": "October 2026",
-    "status": "live",
-    "requirement": null,
-    "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": false
-  },
-  {
-    "country": "north-macedonia",
-    "name": "North Macedonia",
-    "slug": "north-macedonia",
-    "scope": null,
-    "flow": null,
-    "date": "2026-10-01",
-    "date_precision": "month",
-    "date_label": "October 2026",
-    "status": "proposed",
-    "requirement": null,
-    "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": false
-  },
-  {
-    "country": "peru",
-    "name": "Peru",
-    "slug": "peru",
-    "scope": null,
-    "flow": null,
-    "date": "2026-10-01",
-    "date_precision": "month",
-    "date_label": "October 2026",
-    "status": "live",
-    "requirement": null,
-    "jurisdiction_code": null,
-    "trust_label": "unclassified",
-    "sources": [],
-    "source_url": null,
-    "source_checked_at": null,
-    "r18": false
-  },
-  {
     "country": "costa-rica",
     "name": "Costa Rica",
     "slug": "costa-rica",
@@ -70,91 +16,6 @@
     "source_url": null,
     "source_checked_at": null,
     "r18": false
-  },
-  {
-    "country": "greece",
-    "name": "Greece",
-    "slug": "greece",
-    "scope": "e-invoicing",
-    "flow": "b2b",
-    "date": "2026-11-02",
-    "date_precision": "day",
-    "date_label": "2 November 2026; transition to 31 January 2027",
-    "status": "announced",
-    "requirement": "einvoicing",
-    "jurisdiction_code": null,
-    "trust_label": "Official",
-    "sources": [
-      {
-        "url": "https://www.aade.gr/en/mandatory-electronic-invoicing-digital-goods-movement-documents-frequently-asked-questions-answers",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://www.ey.com/en_gr/technical/tax/tax-alerts/new-deadlines-e-invoicing-digital-transportation-documents",
-        "tier": 2,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://www.fiscal-requirements.com/news/5805-greece-prepares-for-wider-mandatory-e-invoicing-from-october-2026?country_id=24",
-        "tier": 3,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://kpmg.com/us/en/taxnewsflash/news/2026/02/greece-implementation-mandatory-e-invoicing-postponed.html",
-        "tier": 2,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://www.vatupdate.com/2026/08/05/greece-3-august-deadline-marks-final-window-for-e-invoicing-tax-incentives-ahead-of-1-october-mandate",
-        "tier": 3,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://www.aade.gr/ypohreotiki-ilektroniki-timologisi-psifiaka-parastatika-diakinisis-syhnes-erotiseis",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": "2026-10-08"
-      },
-      {
-        "url": "https://ec.europa.eu/digital-building-blocks/sites/spaces/einvoicingCFS/pages/881983577/2025+Greece+2025+eInvoicing+Country+Sheet",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://ec.europa.eu/digital-building-blocks/sites/pages/viewpage.action?pageId=861175818",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://peppol.org/learn-more/country-profiles/greece",
-        "tier": 3,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://www.vatupdate.com/2026/01/15/data-on-a-greek-e-invoice-vs-data-reported-to-mydata-tax-authority-key-differences",
-        "tier": 3,
-        "source_date": null,
-        "checked_at": null
-      },
-      {
-        "url": "https://ec.europa.eu/digital-building-blocks/sites/x/roJDJw",
-        "tier": 1,
-        "source_date": null,
-        "checked_at": null
-      }
-    ],
-    "source_url": "https://www.aade.gr/ypohreotiki-ilektroniki-timologisi-psifiaka-parastatika-diakinisis-syhnes-erotiseis",
-    "source_checked_at": "2026-10-08",
-    "r18": true
   },
   {
     "country": "brazil",
@@ -219,7 +80,7 @@
     "date": "2026-12-31",
     "date_precision": "day",
     "date_label": "31 December 2026",
-    "status": "phasing",
+    "status": "live",
     "requirement": null,
     "jurisdiction_code": null,
     "trust_label": "unclassified",
