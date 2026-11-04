@@ -1139,16 +1139,31 @@
         "digital_reporting": null
       },
       "b2g": {
-        "einvoicing": null,
+        "einvoicing": {
+          "status": "announced",
+          "next_date": "2027-08-31",
+          "since_date": null,
+          "date_precision": "day",
+          "since_precision": null,
+          "trust": null
+        },
         "digital_reporting": null
       },
       "b2c": {
         "einvoicing": null,
-        "digital_reporting": null
+        "digital_reporting": {
+          "status": "announced",
+          "next_date": "2027-08-31",
+          "since_date": null,
+          "date_precision": "day",
+          "since_precision": null,
+          "trust": null
+        }
       }
     },
     "scope_tags": [
-      "e-invoicing"
+      "e-invoicing",
+      "digital-reporting"
     ]
   },
   {
