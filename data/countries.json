@@ -44,7 +44,7 @@
     "status_scope": null,
     "labels": null,
     "statusLabel": "Mandate live",
-    "keyDate": "B2B since 2021",
+    "keyDate": "B2C issue since 2021",
     "model": "Clearance (fiscalisation)",
     "format": "National XML (central invoicing platform)",
     "authority": "General Directorate of Taxes (Drejtoria e Përgjithshme e Tatimeve)",
@@ -592,7 +592,7 @@
     "status_scope": null,
     "labels": null,
     "statusLabel": "Mandate live",
-    "keyDate": "B2C issue since 1 April 2017",
+    "keyDate": "B2B since 1 April 2017",
     "model": "Centralised portal (e-taxes.gov.az)",
     "format": "Local XML (e-qaimə / e-VHF)",
     "authority": "State Tax Service (STS) under the Ministry of Economy",
@@ -2068,7 +2068,7 @@
     "status_scope": null,
     "labels": null,
     "statusLabel": "Mandate live",
-    "keyDate": "B2C issue since 1 November 2018",
+    "keyDate": "B2B since 1 November 2018",
     "model": "Clearance",
     "format": "XML v4.4",
     "authority": "Ministerio de Hacienda",
@@ -2119,13 +2119,15 @@
     "region": "Europe",
     "status": "live",
     "status_scope": null,
-    "labels": null,
-    "statusLabel": "Mandate live",
-    "keyDate": "B2B since 1 January 2026",
-    "model": "Exchange (B2B/B2G e-invoicing) + real-time fiscalization reporting (B2C)",
-    "format": "eRačun XML, EN 16931 + Croatia-specific CIUS \"HR-FISK 2.0\"",
+    "labels": [
+      "E-reporting live"
+    ],
+    "statusLabel": "Mandate live · E-reporting live",
+    "keyDate": "B2B receive since 1 January 2026",
+    "model": "Access-point exchange",
+    "format": "eRačun (structured)",
     "authority": "Porezna uprava (Tax Administration), Ministry of Finance",
-    "summary": "Croatia's \"Fiscalization 2.0\" reform, effective 1 January 2026, mandates structured e-invoicing (eRačun) for B2B and B2G transactions between VAT-registered businesses, in a Croatia-specific CIUS (HR-FISK 2.0) built on EN 16931. B2C sales require real-time fiscalization reporting to the Tax Administration regardless of payment method, though a traditional receipt (not necessarily a structured e-invoice) is acceptable for the consumer as long as the transaction data is reported. The goal is that essentially every taxable transaction is digitally captured, with very few exceptions.",
+    "summary": "Under the Fiscalization Act (NN 89/25), Croatia’s Fiscalization 2.0 regime is in force in phases. From 1 January 2026 VAT-registered taxpayers established or resident in Croatia must issue and receive structured eRačun for covered domestic transactions and both sides fiscalise prescribed data to the Tax Administration; non-VAT obligors must receive eRačun in 2026 and issue from 1 January 2027. B2C final-consumption fiscalisation is a separate reporting track from structured B2B/B2G e-invoicing.",
     "hasDossier": true,
     "flows": {
       "b2b": {
@@ -2137,19 +2139,41 @@
           "since_precision": "day",
           "trust": null
         },
-        "digital_reporting": null
+        "digital_reporting": {
+          "status": "live",
+          "next_date": null,
+          "since_date": "2026-01-01",
+          "date_precision": "day",
+          "since_precision": "day",
+          "trust": null
+        }
       },
       "b2g": {
-        "einvoicing": null,
+        "einvoicing": {
+          "status": "live",
+          "next_date": null,
+          "since_date": "2026-01-01",
+          "date_precision": "day",
+          "since_precision": "day",
+          "trust": null
+        },
         "digital_reporting": null
       },
       "b2c": {
         "einvoicing": null,
-        "digital_reporting": null
+        "digital_reporting": {
+          "status": "live",
+          "next_date": null,
+          "since_date": "2026-01-01",
+          "date_precision": "day",
+          "since_precision": "day",
+          "trust": null
+        }
       }
     },
     "scope_tags": [
-      "e-invoicing"
+      "e-invoicing",
+      "digital-reporting"
     ]
   },
   {
@@ -2572,7 +2596,7 @@
     "status_scope": null,
     "labels": null,
     "statusLabel": "Mandate live",
-    "keyDate": "B2C issue since 29 November 2022",
+    "keyDate": "B2B issue since 29 November 2022",
     "model": "Clearance",
     "format": "SRI XML",
     "authority": "SRI",
@@ -2851,7 +2875,7 @@
     "status_scope": null,
     "labels": null,
     "statusLabel": "Rollout underway",
-    "keyDate": "B2C issue since 15 July 2026",
+    "keyDate": "B2B issue since 15 July 2026",
     "model": "Clearance adjacent: accredited EFD, unique identifier, real time or 15 day transmission to ERS",
     "format": "Structured fiscal data via accredited EFD (POS or E-SDC); schema not published",
     "authority": "Eswatini Revenue Service (ERS)",
@@ -3107,7 +3131,7 @@
       "E-reporting live"
     ],
     "statusLabel": "Mandate live · E-reporting live",
-    "keyDate": "B2B receive since 1 September 2026",
+    "keyDate": "B2B issue since 1 September 2026",
     "model": "5-corner CTC via Plateformes Agréées (PAs) + PPF",
     "format": "UBL, CII, or hybrid (Factur-X)",
     "authority": "DGFiP (Direction générale des Finances publiques)",
@@ -3360,10 +3384,10 @@
     "labels": null,
     "statusLabel": "Mandate live",
     "keyDate": "B2B receive since 1 January 2025",
-    "model": "Federal receipt platforms (ZRE / OZG-RE)",
-    "format": "EN 16931 (XRechnung; ZUGFeRD in some cases)",
+    "model": "Federal invoice submission via OZG-RE",
+    "format": "XRechnung or other EN 16931 compliant (e.g. ZUGFeRD 2.2.0+ XRECHNUNG profile)",
     "authority": "BMF (Bundesministerium der Finanzen)",
-    "summary": "Since 1 January 2025 every German-established business must be able to receive structured EN 16931 e-invoices for domestic B2B transactions, with no grace period on the reception side. Mandatory issuance follows a phased timeline: from 1 January 2027 for businesses whose prior-year turnover exceeded €800,000, and from 1 January 2028 for all remaining businesses. E-Reporting for B2B transactions is targeted for July 2030. Germany operates a decentralised model with no central government clearance platform for B2B invoices; exchange occurs directly between trading parties.",
+    "summary": "Since 1 January 2025, German-established businesses must be able to receive structured EN 16931 e-invoices for domestic B2B supplies; the BMF letter of 15 October 2025 updates the 15 October 2024 guidance under §14 UStG. Mandatory issuance remains transitional: sources summarizing the Growth Opportunities Act and BMF guidance put full e-invoice issuance from 1 January 2027 for issuers with prior-year turnover over €800,000, and from 1 January 2028 for remaining in-scope issuers. B2B exchange is decentralised and post-audit with no central clearance platform; federal B2G already uses OZG-RE and XRechnung under the E-Rechnungsverordnung.",
     "hasDossier": true,
     "flows": {
       "b2b": {
@@ -3505,7 +3529,7 @@
       "E-reporting live"
     ],
     "statusLabel": "Mandate live · E-reporting live",
-    "keyDate": "B2B issue since 2 March 2026",
+    "keyDate": "B2B receive since 2 March 2026",
     "model": "Peppol four-corner (GSIS Corner 3 AP)",
     "format": "Peppol BIS Billing CIUS 3.0",
     "authority": "IAPR (AADE)",
@@ -3711,7 +3735,7 @@
     "status_scope": null,
     "labels": null,
     "statusLabel": "Mandate live",
-    "keyDate": "B2B issue since 1 July 2023",
+    "keyDate": "B2C issue since 1 July 2023",
     "model": "Clearance (FEL)",
     "format": "XML",
     "authority": "SAT",
@@ -4401,7 +4425,7 @@
       "E-reporting live"
     ],
     "statusLabel": "Mandate live · E-reporting live",
-    "keyDate": "B2B since 1 January 2019",
+    "keyDate": "B2C issue since 1 January 2019",
     "model": "Clearance (SdI)",
     "format": "FatturaPA XML",
     "authority": "Agenzia delle Entrate",
@@ -5133,7 +5157,7 @@
     ],
     "statusLabel": "Proposed · Live (B2G only) · E-reporting live",
     "keyDate": "B2B from 1 January 2028 per government plans",
-    "model": "Centralised platform (SABIS from 1 Jul 2024)",
+    "model": "Centralised platform (SABIS from 1 Jul 2024, replacing eSąskaita) + Peppol network",
     "format": "Peppol BIS Billing 3.0 / UBL 2.1 / CII (EN 16931)",
     "authority": "Ministry of the Economy; State Tax Inspectorate (VMI)",
     "summary": "Lithuania has operated a mandatory B2G e-invoicing regime since 1 July 2017, delivered through the SABIS platform (which replaced eSąskaita from mid-2024) via the Peppol network and EN 16931-compliant formats. B2B e-invoicing remains voluntary, with no enacted legislation; the government has signalled an intention to introduce a B2B mandate targeting 2028, reusing the SABIS and Peppol infrastructure, but no statute has been published. The i.MAS system (comprising i.SAF, i.VAZ and i.SAF-T) operates as a separate, live digital reporting obligation for VAT and transport data.",
@@ -5325,7 +5349,7 @@
     "status_scope": null,
     "labels": null,
     "statusLabel": "Mandate live",
-    "keyDate": "B2B issue since 1 May 2026",
+    "keyDate": "B2C issue since 1 May 2026",
     "model": "real-time clearance",
     "format": "MRA EIS (JSON API / portal)",
     "authority": "MRA",
@@ -5872,34 +5896,20 @@
     "slug": "monaco",
     "name": "Monaco",
     "region": "Europe",
-    "status": "announced",
+    "status": "voluntary",
     "status_scope": null,
     "labels": null,
-    "statusLabel": "Announced — dated",
-    "keyDate": "B2B issue from 1 September 2027",
-    "model": "Post-audit, PDP/PPF interoperability",
+    "statusLabel": "Voluntary / partial",
+    "keyDate": "TBC",
+    "model": "Post-audit (French decentralised PDP/PPF interoperability model)",
     "format": "Factur-X, UBL, CII",
     "authority": "Direction des Services Fiscaux (Department of Tax Services)",
-    "summary": "Monaco shares a single VAT territory with France and, as a result, VAT-registered Monegasque businesses are drawn into France's mandatory electronic invoicing and e-reporting reform. Large and mid-sized enterprises must issue structured e-invoices and transmit e-reporting data from 1 September 2026; all businesses must be capable of receiving them from the same date. Small and micro enterprises gain an additional year, with the issuing obligation extending to them from 1 September 2027.",
+    "summary": "Monaco permits electronic VAT invoices under its Turnover Tax Code when the recipient accepts and authenticity, integrity and readability are assured. Official Monaco tax pages describe VAT on the same basis and rates as France, plus voluntary VAT and DES teleservices, but do not enact a national mandatory B2B or B2C structured e-invoicing or e-reporting calendar. French BOFiP (30 September 2026) states that specific rules apply to French transaction e-reporting for operations with persons established, domiciled or habitually resident in Monaco, without setting a Monaco national mandate timetable in the excerpts provided.",
     "hasDossier": true,
     "flows": {
       "b2b": {
-        "einvoicing": {
-          "status": "announced",
-          "next_date": "2027-09-01",
-          "since_date": "2026-09-01",
-          "date_precision": "day",
-          "since_precision": "day",
-          "trust": null
-        },
-        "digital_reporting": {
-          "status": "announced",
-          "next_date": "2027-09-01",
-          "since_date": "2026-09-01",
-          "date_precision": "day",
-          "since_precision": "day",
-          "trust": null
-        }
+        "einvoicing": null,
+        "digital_reporting": null
       },
       "b2g": {
         "einvoicing": {
@@ -5914,19 +5924,11 @@
       },
       "b2c": {
         "einvoicing": null,
-        "digital_reporting": {
-          "status": "announced",
-          "next_date": null,
-          "since_date": "2026-09-01",
-          "date_precision": "day",
-          "since_precision": "day",
-          "trust": null
-        }
+        "digital_reporting": null
       }
     },
     "scope_tags": [
-      "e-invoicing",
-      "digital-reporting"
+      "e-invoicing"
     ]
   },
   {
@@ -6832,20 +6834,20 @@
     "status_scope": null,
     "labels": null,
     "statusLabel": "Announced — dated",
-    "keyDate": "B2C issue from 1 April 2027",
+    "keyDate": "B2B issue from 1 April 2027",
     "model": "5-corner (Peppol)",
-    "format": "XML (Peppol PINT OM)",
+    "format": "XML",
     "authority": "Oman Tax Authority",
     "summary": "The Fawtara programme is the Oman Tax Authority VAT e-invoicing regime, announced with a phased rollout from late 2026 into 2027 starting with large taxpayers. Decision No. 189/2026 sets mandatory electronic tax invoices from 1 April 2027 for VAT taxable persons with annual supplies above OMR 5 million, and from 1 October 2027 for those at or below that threshold, after a voluntary pilot of 100 selected companies from the end of August 2026. Exchange is planned on a Peppol five corner model through licensed service providers; specifications and accreditation remain in development.",
     "hasDossier": true,
     "flows": {
       "b2b": {
         "einvoicing": {
-          "status": "announced",
+          "status": "voluntary",
           "next_date": "2027-04-01",
-          "since_date": null,
+          "since_date": "2026-08-01",
           "date_precision": "day",
-          "since_precision": null,
+          "since_precision": "month",
           "trust": null
         },
         "digital_reporting": null
@@ -7136,7 +7138,7 @@
       "E-reporting live"
     ],
     "statusLabel": "Mandate live · E-reporting live",
-    "keyDate": "B2B since 1 June 2022",
+    "keyDate": "B2C issue since 1 June 2022",
     "model": "Clearance (SEE/OSE)",
     "format": "UBL 2.1",
     "authority": "SUNAT",
@@ -7197,7 +7199,7 @@
     "status_scope": null,
     "labels": null,
     "statusLabel": "Announced — dated",
-    "keyDate": "B2B issue from 31 December 2026",
+    "keyDate": "B2C issue from 31 December 2026",
     "model": "Structured e-reporting (not clearance); buyer delivery unregulated",
     "format": "JSON",
     "authority": "Bureau of Internal Revenue (BIR)",
@@ -7479,7 +7481,7 @@
     "status_scope": null,
     "labels": null,
     "statusLabel": "Rollout underway",
-    "keyDate": "B2B issue since 1 August 2026",
+    "keyDate": "B2C issue since 1 August 2026",
     "model": "Certified invoicing (SFEC)",
     "format": "TBC",
     "authority": "DGID",
@@ -7941,7 +7943,7 @@
     ],
     "statusLabel": "Mandate live · E-reporting live",
     "keyDate": "B2C issue since 4 December 2021",
-    "model": "Generation (structured e-invoice; no Fatoora clearance in Phase 1)",
+    "model": "Generation of simplified tax invoices with TLV QR",
     "format": "UBL 2.1 XML with ZATCA-specific extensions",
     "authority": "ZATCA",
     "summary": "Saudi Arabia FATOORA e-invoicing is fully operational under ZATCA. Phase 1 has required all resident VAT registered taxpayers to generate structured electronic invoices since December 2021 (4 December 2021). Phase 2, live from 1 January 2023 in over 24 revenue based waves, adds mandatory API integration with the FATOORA platform for real time B2B/B2G clearance and 24 hour B2C reporting; Wave 24 used a SAR 375,000 threshold, and Wave 25 requires integration by 1 February 2027 for VAT subject revenue above SAR 187,500 in any of 2022 to 2025.",
@@ -8251,24 +8253,24 @@
       "Live (B2G only)"
     ],
     "statusLabel": "Announced — dated · Live (B2G only)",
-    "keyDate": "B2B issue from 1 January 2027",
+    "keyDate": "B2B receive from 1 January 2027",
     "model": "IS EFA (Peppol-based replacement expected 2027)",
     "format": "EN 16931",
     "authority": "Financial Administration of the Slovak Republic (Finančná správa SR)",
-    "summary": "Slovakia has a live B2G e-invoicing mandate via IS EFA. Act No. 385/2025 makes domestic B2B e-invoicing and reporting mandatory from 1 January 2027. The Financial Administration manual of 26 August 2026 says voluntary use is open during 2026, and does not set a Q2 start. A National Council bill, not yet law, would waive specified penalties from 1 January 2027 to 30 June 2027 and would remove buyer reporting of received e-invoices. It would not postpone the duty to receive.",
+    "summary": "Slovakia has a live B2G e-invoicing mandate under Act No. 215/2019. Act No. 385/2025 amends the VAT Act so that domestic B2B and B2G structured e-invoicing and related reporting become mandatory from 1 January 2027. The Financial Administration opens voluntary eInvoice use from the second quarter of 2026 through certified Peppol service providers (Digital Postmen).",
     "hasDossier": true,
     "flows": {
       "b2b": {
         "einvoicing": {
-          "status": "phasing",
+          "status": "voluntary",
           "next_date": "2027-01-01",
-          "since_date": null,
+          "since_date": "2026-04-01",
           "date_precision": "day",
-          "since_precision": null,
+          "since_precision": "month",
           "trust": null
         },
         "digital_reporting": {
-          "status": "phasing",
+          "status": "announced",
           "next_date": "2027-01-01",
           "since_date": null,
           "date_precision": "day",
@@ -8279,7 +8281,7 @@
       "b2g": {
         "einvoicing": {
           "status": "live",
-          "next_date": null,
+          "next_date": "2027-01-01",
           "since_date": "2019-08-01",
           "date_precision": "day",
           "since_precision": "day",
@@ -8308,8 +8310,8 @@
     ],
     "statusLabel": "Announced — dated · Live (B2G only)",
     "keyDate": "B2B from 1 January 2028",
-    "model": "Budget users may only receive via the PPA/UJP single entry point",
-    "format": "EN 16931 via e-SLOG 2.0",
+    "model": "Central PPA/UJP gateway (banks, distribution providers, or UJPeRačun)",
+    "format": "e-SLOG 2.0 (EN 16931); UBL/Peppol syntaxes accepted where the PPA channel supports them",
     "authority": "Financial Administration of the Republic of Slovenia (FURS); Ministry of Finance",
     "summary": "Slovenia has required B2G e-invoicing via the e-SLOG standard since 2015, processed through the Public Payments Administration (UJP/PPA). On 23 October 2025 the National Assembly adopted the Act on the Exchange of Electronic Invoices and Other Electronic Documents (ZIERDED), promulgated by the President on 31 October 2025, setting 1 January 2028 as the definitive B2B mandate date (postponed from a January 2027 draft target, itself postponed from earlier April/July 2026 proposals). The final law uses a Decentralized Continuous Control and Exchange Model (DCTCE) and removed the real-time e-reporting obligation that appeared in draft bills; accepted formats are e-SLOG 2.0, Peppol BIS 3.0, UBL 2.1, or EN 16931 CII.",
     "hasDossier": true,
@@ -8553,7 +8555,7 @@
     "statusLabel": "Announced — dated · Live (B2G only)",
     "keyDate": "B2B from 6 October 2027",
     "model": "Central platform (FACe)",
-    "format": "Facturae (qualified certificate electronic signature); EN 16931 accepted by public authorities",
+    "format": "Facturae; EN 16931 for contracts above EU public procurement thresholds",
     "authority": "AEAT",
     "summary": "Spain has required structured Facturae invoices for supplies to public administrations, through FACe, since 15 January 2015. Orden HAC/1028/2026 of 2 October was published in the BOE on 5 October 2026 and entered into force on 6 October 2026. From that date the periods in Royal Decree 238/2026 run: businesses and professionals whose article 121 turnover exceeded EUR 8 million in the preceding calendar year must issue, send and receive electronic invoices, and report invoice states and payments, from 6 October 2027. Every other in-scope business and professional must issue, send and receive electronic invoices from 6 October 2028. Natural persons and income-attribution entities at or below that turnover threshold report invoice states and payments from 6 October 2029.",
     "hasDossier": true,
@@ -8569,7 +8571,7 @@
         },
         "digital_reporting": {
           "status": "announced",
-          "next_date": "2029-10-06",
+          "next_date": "2027-10-06",
           "since_date": null,
           "date_precision": "day",
           "since_precision": null,
@@ -8881,7 +8883,7 @@
     "statusLabel": "Voluntary / partial · Live (B2G only)",
     "keyDate": "B2G issue since 1 April 2019",
     "model": "Peppol (decentralised, no central platform)",
-    "format": "Peppol BIS Billing 3.0 / EN 16931",
+    "format": "EN 16931 (Peppol BIS Billing 3.0 preferred)",
     "authority": "Skatteverket / DIGG (Peppol authority transferring to Upphandlingsmyndigheten from Jul 2026)",
     "summary": "Sweden has a live B2G e-invoicing mandate covering central government agencies since 2008, and all public procurement contracts since 2019, with suppliers required to issue EN 16931-compliant invoices and all contracting authorities required to receive them via the Peppol network. B2B e-invoicing remains voluntary but is widely practised. A formal government inquiry launched in February 2026 will assess whether domestic B2B e-invoicing and digital reporting requirements should be introduced, with findings due no later than November 2027.",
     "hasDossier": true,
@@ -9738,16 +9740,16 @@
     "model": "Peppol 5-corner (DCTCE)",
     "format": "PINT AE (UBL 2.1 XML)",
     "authority": "Ministry of Finance / Federal Tax Authority",
-    "summary": "Pilot phase opened July 2026. B2B and B2G e-invoicing via accredited service providers becomes mandatory for large businesses (revenue of AED 50 million or more) on 1 January 2027 and for all other VAT-registered businesses on 1 July 2027. In-scope government entities go live on 1 October 2027; first wave ASP appointment is by 30 October 2026 (extended from 31 July 2026) and the 1 January 2027 go live date is unchanged.",
+    "summary": "Persons subject to the Electronic Invoicing System implement regardless of VAT registration where revenue is equal to or exceeding AED 50,000,000 (Wave 1 from 1 January 2027). Wave 1 ASP appointment was due 30 October 2026 (done). As of 5 November 2026 the MoF register lists 84 ASPs (Accredited Service Providers). MD 168 replaces MD 64 for ASP accreditation; Cabinet Decision 173 replaces Cabinet Decision 106; MD 197 covers voluntary adoption and Tax Group exclusions.",
     "hasDossier": true,
     "flows": {
       "b2b": {
         "einvoicing": {
-          "status": "phasing",
+          "status": "voluntary",
           "next_date": "2027-01-01",
-          "since_date": null,
+          "since_date": "2026-07-01",
           "date_precision": "day",
-          "since_precision": null,
+          "since_precision": "day",
           "trust": null
         },
         "digital_reporting": null
